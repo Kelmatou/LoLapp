@@ -1,0 +1,170 @@
+82B8A87A
+<YN>> Champions
+
+<BT>> Aurelion Sol
+<S>Q stun duration down. R slow adjusted.
+
+<-S>> Q - Starsurge
+<E>Stun duration: 1/1.25/1.5/1.75/2s -> 1.1/1.2/1.3/1.4/1.5s
+<-S>> R - Voice of Light
+<E>Slow: 60/70/80% -> 40/50/60%
+<E>Duration: 4s -> 2s
+<E>Removed: No longer decays over the duration
+
+<GS>> Context
+<C>Aurelion's just begun to take flight above the Rift, yet already we're seeing him become a destructive force once you're able to harness his starpower. Sol's mastery curve is steeper than Mount Targon itself, which is understandable given his unique positioning requirements for a mage. Once you've appropriately adjusted though, Aurelion starts pumping out damage bigger than his ego (that is to say, things get pretty crazy). We're pleased that Aurelion's worth investing the time it takes to learn - we're just adjusting the immense reward you get for doing so.
+
+<BT>> Corki
+<S>Basic attack ratio down.
+
+<-S>> Passive - Hextech Munitions
+<E>Ration on basic attacks: 1.1 total AD -> 1.0 total AD
+
+<GS>> Context
+<C>The go-to midlane staple in pro play, Corki's damage output is too much for his peers to keep up with at the moment. Corki makes sense as a �caster-carry' at heart, using his gold to fuel a barrage of high-damage abilities for poking enemies or laying on the burst after a package power-play. What doesn't make sense is the guy with top-shelf spells (and hextech munitions) having above-average basic attacks. We're cutting back on some of that extraneous power (there it is) to bring him in line without infringing on his spell-slinging identity.
+
+<BT>> Irelia
+<S>Q cost down, AD ratio up.
+
+<+S>> Q - Bladesurge
+<E>Cost: 60/65/70/75/80 mana -> 50/55/60/65/70 mana
+<E>Ratio: 1.0 total AD -> 1.2 total AD
+
+<GS>> Context
+<C>Irelia's been struggling overall this season, but most notably she's underperforming in matchups she should feel good about: ranged champions who struggle against her dive. The high sustain available to those champions has made it harder for her to contest enemy farming in lane, while their general tankiness has left her all-in feeling a bit too weak to finish them off. Irelia has the tools to farm at a distance before diving onto those champions, she just needs a bit more consistency as to how often and how efficiently she can do so.
+
+<BT>> Jhin
+<S>Q cost increased and damage down. E cost down.
+
+<-S>> Q - Dancing Grenade
+<E>Damage: 60/85/110/135/160 -> 50/75/100/125/150
+<E>Cost: 30/35/40/45/50 mana -> 40/45/50/55/60 mana
+<+S>> E - Captive Audience
+<E>Cost: 40/45/50/55/60 mana -> 30/35/40/45/50 mana
+
+<GS>> Context
+<C>As audiences have grown familiar with Jhin's obsession for the dramatic (and the number four), it's clear that we went too far in addressing his laning woes in 6.4. Now that we've finally seen a clear picture of Jhin's fearsome late-game potential, we're pulling back to a middle ground where both sides feel like they can meaningfully impact the Virtuoso's murderous performance.
+
+<BT>> Kindred
+<S>W heal down early but up late. R is now self-cast.
+
+<-S>> W - Wolf's Frenzy
+<E>Passive heal: 43-94 (at levels 1-18) -> 34-102 (at levels 1-18)
+<-S>> R - Lamb's Respite
+<E>Cast paradigm: Now self-casts directly on top of Kindred (can no longer be placed on allies)
+
+<GS>> Context
+<C>Champion complexity is valuable, but sometimes you can have too much of a good thing. Experienced Kindred players are too able to optimize the value they get around placing and navigating their two zones (Wolf's Frenzy and Lamb's Respite). Cutting back on Wolf's Frenzy's sustain softens Kindred's early game dominance in experienced hands, while centering Lamb's Respite limits their capacity to save mispositioned allies (while benefitting newer Kindreds thanks to solving some of the targeting-wonkiness).
+
+<BT>> Lux
+<S>W missile speed up.
+
+<+S>> W - Prismatic Barrier
+<E>Throwback: Prismatic Barrier is slightly slower as it goes out, but is much faster on return (overall faster from 6.6)
+
+<GS>> Context
+<C>We're pretty happy with how 6.6's changes to Prismatic Barrier are playing out, but it seems we went a little too far in hampering Lux's personal safety. This change won't affect its use on allies all that much, but should make firing your shield and running away from danger feel more responsive.
+
+<BT>> Nidalee
+<S>W damage down early, up later.
+
+<+S>> W - Pounce
+<E>Damage 65/110/155/200 -> 60/110/160/210
+
+<GS>> Context
+<C>We changed Nidalee last patch with the goal of reducing her dominance in the jungle for high-level players, but introduced a compensatory boost to Pounce's damage in the event that we went too hard. In reality, the opposite occurred - Nidalee actually improved as people adapted to the changes. While we're happy to hear she's able to succeed, we're slightly dialing back on Nid's clear speed to give other junglers a chance to shine.
+
+<BT>> Poppy
+<S>Passive and E range down. Q damage down. Passive doesn't reset basic attacks.
+
+<-S>> Passive - Iron Ambassador
+<E>Range: 525 -> 425
+<E>Removed: No longer resets Poppy's basic attack
+<+S>> Q - Hammer Shock
+<E>Damage 40/65/90/115/140 + 6% of the target's maximum health -> 35/55/75/95/115 + 7% of the target's maximum health
+<-S>> E - Heroic Charge
+<E>Range: 525 -> 425
+
+<GS>> Context
+<C>Reworked to be a disruptive tank that lives in the middle of a battle, Poppy excels at peeling threats and blocking divers and assassins from getting to her precious, precious carries. Poppy currently boasts some of the highest damage, crowd control and overall reliability for a tank in the League, leaving teams hard-pressed to pass her up no matter what the composition demands. When looking at which of these areas to pull power from, we landed on range as the biggest offender contributing to Poppy's over-the-top strength.
+
+<C>When you combine high base damage and no shortage of tools to lock down a single target, you end up with a tenacious threat that simply ignores what the other team wants to do and dives the highest profile targets over and over. We love Poppy being a sturdy threat to anything within reach, but limiting her access to the back lines of a fight keeps her in the middle of the chaos where she's meant to thrive - or at the very least, undergo significantly more risk to pull off the same CC chains she's used to.
+
+<BT>> Rammus
+<S>R Cooldown up.
+
+<-S>> R - Tremors
+<E>Cooldown: 60s -> 100/80/60s
+
+<GS>> Context
+<C>Whenever a champion starts seeing play in a different role or building different items than predicted, we have to ask ourselves a few important questions. �Is this champion still making appropriate trade-offs?' While Rammus trades sonic-speed ganks so he can brawl with the best in the top lane, the strength and repeatability of his all-ins make it near-impossible for enemies to come out ahead in any situation. We're cracking down on the armordillo's uptime to make fighting Rammus in lane more realistic.
+
+<BT>> Soraka
+<S>Q and W's mana costs increased.
+
+<-S>> Q - Starcall
+<E>Cost: 40 mana at all ranks -> 40/45/50/55/60 mana
+<-S>> W - Astral Infusion
+<E>Cost: 40/45/50/55/60 mana -> 50/55/60/65/70 mana
+
+<GS>> Context
+<C>Our hopes with Soraka's latest changes were twofold - cut down on the frustrations of her being a non-interactive backline healer while keeping her overall performance about the same. We're confident we accomplished the first objective (Raka's taking more risks to spread the love), but she came out a bit stronger than we'd hoped for. We were intentionally soft when tuning Soraka's costs so players could play around the new Starcall paradigm, but now that folks have adapted, we're making her consistent output more reasonable during longer fights.
+
+<BT>> Udyr
+<S>Health regen down. R's damage on-hit and damage over time down.
+
+<-S>> Base health regen: 8.7 -> 6
+<-S>> R - Phoenix Stance
+<E>Damage per second: 15/25/35/45/55 -> 10/20/30/40/50
+<E>Proc damage: 40/75/110/145/180 -> 25/60/95/130/165
+
+<GS>> Context
+<C>Udyr's strong early game dueling combined his high clear speed leaves you with a bit of a catch-22: fight him and lose or leave him alone and let him scale. On top of that, Udyr sustains through most damage taken in the jungle, allowing him to spend most of the game fighting - monsters or other champions - without ever having to base. Much like Shyvana last patch, we don't want to prevent Udyr from reaching his late game fantasy, we just want to ensure it takes a reasonable amount of time for him to do so. Throttling down the efficiency with which he can bring home the bacon should give opposing teams more time to do something about it.
+
+<BT>> Zed
+<S>W Cooldown increased. W's bonus AD passive decreased.
+
+<-S>> W - Living Shadow
+<E>Cooldown: 18/17/16/15/14s -> 22/20/18/16/14s
+<E>Passive Bonus AD: 5/10/15/20/25% -> 4/8/12/16/20%
+
+<GS>> Context
+<C>From laning to late-game, Zed's dominating every phase of the game. Zed's a challenging opponent at all skill levels, but key among the frustrations of dealing with him is the safety at which he operates. Be it long-ranged, dual-shuriken action or a clean getaway, the window Zed presents to interact with him is on the shorter side when compared to the duress he places upon his victims. Widening the gaps between Zed's aggression and taking out some of his back-loaded scaling (now that he's got access to some sweet items) will bring careful opponents closer to victory and further from being styled on in someone's highlight reel.
+
+<YN>> Items
+
+<BT>> Maw of Malmortius
+<S>Magic resist down. Attack speed removed.
+
+<-S>> MR: 50 -> 40
+<-S>> Removed: AS 25% -> 0%
+
+<GS>> Context
+<C>Hexdrinker's always been an effective pick-up for those looking to defend against magic damage spikes, but Maw's stealing the show in 2016. Warming the bench in previous seasons (often something you upgraded if you �had to'), Maw's raw stat-efficiency combined with the upgraded Lifegrip buff currently makes it a catch-all for any magic damage, rather than a counter to a specific situation. Maw should still feel like an appropriate upgrade against mage-heavy teams, but rushing it suboptimally shouldn't be as effective as it currently is.
+
+<YN>> Masteries
+
+<BT>> Warlord's Bloodlust
+<S>Ranged champions lifesteal less from minions.
+
+<-S>> Effectiveness vs minions: 50% -> 50% for melee champions, 25% for ranged champions
+
+<GS>> Context
+<C>Staying in lane is about weighing your rewards vs. what you're risking to get them. Pushing allows you to apply heavy pressure on the turret, but increases the risk of over-extending and getting ganked. Trading damage increases your chances of getting a kill, but the same is true for getting killed.
+
+<C>By design, Warlord's Bloodlust sets up a simple risk vs. reward proposition: by opening yourself up to additional lane harassment and gank pressure, you can push the lane aggressively to be rewarded with the sustain to shrug off that damage. Fail to do so (that is, taking too much harassment while you push), and you're forced to sit back to sustain your health. This is true for melee champions taking Warlord's Bloodlust. By contrast, ranged champions are able to avoid much of that risk by virtue of getting all of their sustain from a safe distance. We're tweaking that.
+
+<YN>> Bugfixes
+
+<YS>- Fixed a bug that could cause Rengar's basic abilities to have no Cooldown
+<YS>- Fixed the Play Again button
+<YS>- Restored High Noon Jhin's harmonica sound effect when his fourth shot is ready
+<YS>- Base Syndra's movement animations have been fixed
+<YS>- Traveling through Bard's E - Magical Journey no longer rarely takes you in the wrong direction
+<YS>- Fixed a bug where Lucian's R - The Culling would sometimes be interrupted even if he had a spell shield
+<YS>- Fixed a few cases where Twisted Fate's blue W - Pick A Card didn't refund mana when used on objects like Teemo mushrooms or Illaoi tentacles
+<YS>- The cast range indicator for Xerath's R - Rite of the Arcane has been shrunk to match the ability's actual range
+<YS>- Xerath's R - Rite of the Arcane no longer fails to deal damage to Baron Nashor at extreme ranges
+<YS>- Expanded the range indicator of Zz'Rot Portal to better match Voidspawn travel distance
+<YS>- Item shop tooltips no longer occasionally pop up on their own when opening the shop
+<YS>- The item shop search bar no longer clears itself at random intervals

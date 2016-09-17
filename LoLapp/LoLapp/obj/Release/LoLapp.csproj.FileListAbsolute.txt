@@ -1,0 +1,9 @@
+D:\info_project\c#_project\apps\lolapp\LoLapp\obj\Release\LoLapp.csprojResolveAssemblyReference.cache
+D:\Info_project\C#_project\Apps\LoLapp\LoLapp\bin\Release\LoLapp.exe.config
+D:\Info_project\C#_project\Apps\LoLapp\LoLapp\bin\Release\LoLapp.exe
+D:\Info_project\C#_project\Apps\LoLapp\LoLapp\bin\Release\LoLapp.pdb
+D:\Info_project\C#_project\Apps\LoLapp\LoLapp\bin\Release\Newtonsoft.Json.dll
+D:\Info_project\C#_project\Apps\LoLapp\LoLapp\bin\Release\System.Net.Json.dll
+D:\Info_project\C#_project\Apps\LoLapp\LoLapp\obj\Release\LoLapp.exe
+D:\Info_project\C#_project\Apps\LoLapp\LoLapp\obj\Release\LoLapp.pdb
+D:\Info_project\C#_project\Apps\LoLapp\LoLapp\bin\Release\agsXMPP.dll

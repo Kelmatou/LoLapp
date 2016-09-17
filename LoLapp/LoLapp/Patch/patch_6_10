@@ -1,0 +1,232 @@
+F8927928
+<YN>> Champions
+<BT>> Alistar
+<S>R damage reduction down.
+
+<-S>> R - Unbreakable Will
+<E>Damage reduction: 70% at all ranks -> 50/60/70%
+
+<GS>> Context
+<C>Alistar's the definition of a professional staple, bringing consistent peel, initiation, and diving potential. We're not looking to change that, but when Alistar becomes too reliable he suffocates the rest of the support landscape. We've always been happy with Alistar breaking up the attrition of an all-ranged lane through the threat of tower-dives, but at present he's got too much of a good thing. We're toning back Ali's early-game ability to tank turret shots (and everything else) so opponents have a chance to play around his window of strength rather than just flee for its duration.
+
+<BT>> Anivia
+<S>R radius and cast range increased. Mana cost down.
+
+<+S>> R - Glacial Storm
+<E>Cost per second: 40/50/60 mana -> 30/40/50 mana
+<E>Cast range: 685 -> 750
+<E>Initial radius: 150 -> 200
+<E>Bug fix: Using Zhonya's Hourglass no longer interrupts Glacial Storm
+
+<GS>> Context
+<C>The first of many follow-ups to our Midseason mage updates, we begin with Anivia. While we're confident in the controlling shift we made with the Cryophoenix in 6.9, Anivia as a whole ended up less reliable in the process. With a heavier focus placed on Glacial Storm's uptime, we're making it easier for her to maintain her signature zoning tool.
+
+<BT>> Aurelion Sol
+<S>W cooldown up. R damage down.
+
+<-S>> W - Celestial Expansion
+<E>Cooldown: 6/5/4/3/2s -> 6/5.5/5/4.5/4s
+<-S>> R - Voice of Light
+<E>Damage: 200/300/400 -> 150/250/350
+
+<GS>> Context
+<C>While our last changes pulled him down from the heavens, Aurelion Sol's still kicking as our biggest over-performer. Alas, when you're a strong laner with amazing roaming and teamfighting - something's gotta give. For this update, we're focusing on hitting Sol's in-fight reliability. As-is, Aurelion holds all the cards in any given engagement due to his Celestial Expansion's amazing flexibility, forcing opponents to march to his beat. Putting some of the counterplay back into whether or not Aurelion can safely avoid being knocked out of his empowered state, as well as draining some his raw damage output, should see the Starforger less powerful (but no less magnificent).
+
+<BT>> Cassiopeia
+<S>Q and W ranges up. W cooldown decreased.
+
+<+S>> Q - Noxious Blast
+<E>Range: 750 -> 850
+<E>Movement speed bonus: Noxious Blast's movement speed bonus takes longer to decay
+<+S>> W - Miasma
+<E>Cooldown: 22/20/18/16/14s -> 18/17/16/15/14s
+<E>Minimum range: 550 -> 500
+<E>Maximum range: 800 -> 900
+
+<GS>> Context
+<C>One of the larger Midseason mage updates, Cassiopeia's strengths as an immobilizing controller have been muted by a rather weak release state. Low ranges across her poisons appear to be the culprit, as Cassi quite literally lives or dies on her ability to access Noxious Blast's burst of speed (or Miasma's grounding). Add in some bonus usability to her poisons and Cassiopeia will see herself actually able to play her keep-away kite game without being overrun.
+
+<BT>> Fiddlesticks
+<S>E bounces down. More scarecrow.
+
+<-S>> Scarecrow: After 5 seconds of not moving, Fiddlesticks will become a scarecrow
+<-S>> E - Dark Wind
+<E>Number of bounces: 7 -> 6
+
+<GS>> Context
+<C>After a season in the shadows, Fiddlesticks is back with a vengeance following his spooky update. This patch is nothing complicated - we're going to keep our eye as Fiddle continues to harbinge doom all over the place, but the clearing and dueling potential from Dark Wind was simply too high.
+
+<BT>> Fizz
+<S>R's fish can't be cleansed.
+
+<+S>> R - Chum the Waters
+<E>Removed: Cleansing Chum the Waters' slow no longer detaches the shark from the target.
+
+<GS>> Context
+<C>Due to the changes to Quicksilver Sash only removing crowd control, a nasty bug surfaced where any ability that cleansed slows (like Garen's Q - Decisive Strike) would completely detach Fizz's shark from the target. Rather than just reverting it to its previous behaviour, we're instead making it consistent with QSS's debuff interaction. Cleansing the slow will allow you to move at full speed, but won't detach the shark. Like with QSS's interactions with other high-profile abilities (ex. Zed's R - Death Mark and Fiora's R - Grand Challenge), we'll be closely monitoring how these changes affect Fizz's performance.
+
+<BT>> Illaoi
+<S>W cooldown down.
+
+<-S>> W - Harsh Lesson
+<E>Cooldown: 6/5.5/5/4.5/4s -> 4s
+
+<GS>> Context
+<C>Following changes to her Test of Spirit, Illaoi's found her performance a little lopsided this patch. Traditionally relying on a powerful laning phase to transition into strong teamfighting, Illaoi's new vessel mechanics have reversed this dynamic. Now, Illaoi's late-game vessel shenanigans are making a big splash, but it's her early-game strength that's been reduced significantly. We're happy with the direction of the new Test of Spirit (i.e. providing a tangible benefit to Illaoi but not debuffing opponents for a million years), so we're giving the Kraken Priestess a booster-shot to her early lane-bully potential to even things out.
+
+<BT>> Jinx
+<S>Rocket attacks faster at level 1, but scales worse with attack speed.
+
+<-S>> Q - Switcheroo!
+<E>Fishbones base AS: 0.531 -> 0.625
+<E>Fishbones AS penalty: 15% reduced bonus attack speed -> 25% reduced bonus attack speed
+
+<GS>> Context
+<C>Our last round of changes to Switcheroo were targeted at differentiating Jinx's weapons to make it clear when each should be useful. Pow-Pow's minigun is for hyper-carry damage output at short range, while Fishbones' rocket launcher is for poking and area damage at the cost of a significant amount of DPS uptime. We're happy with how that's played out, save one unintended goal: the usability of Jinxs' level 1 rockets suffered immensely. Seeing how our previous change was about making rockets scale worse with items, we're improving the feel and flow of Jinx's trusty Fishbones for all of her destructive lane-bullying needs.
+
+<BT>> Malzahar
+<S>Passive cooldown up.
+
+<-S>> Passive - Void Shift
+<E>Cooldown: 23-6s (at levels 1-18) -> 30/18/10/6s (at levels 1/6/11/16)
+<E>Clarity: Cooldown indicator is now also shown on buff bar
+
+<GS>> Context
+<C>While our balance hotfix looks to have solved much of Malzahar's over-the-top performance (like soloing dragons at level 3), Malzahar's still ahead of the pack when it comes to mage dominance on 6.9. Void Shift is an important tool to facilitate Malzahar wading through the midlines to lockdown a priority target, but the cooldown is so flexible during laning that it makes most aggression feel meaningless. We're dramatically increasing the windows opponents have to pull Malzahar out of the void and back to his fountain (especially early game).
+
+<BT>> Master Yi
+<S>W ratio up. E damage up.
+
+<+S>> W - Meditate
+<E>Ratio: 0.15 AP/s -> 0.25 AP/s
+<+S>> E - Wuju Style
+<E>True damage on-hit: 12/19/26/33/40 -> 14/23/32/41/50
+
+<GS>> Context
+<C>Master Yi's been on a bit of a wild ride when it comes to the patch notes, but now we find the Wuju Bladesman pretty far behind the curve. Specifically, changes to Guinsoo's Rageblade and the removal of Sated Devourer's got Yi feeling pretty confused about how he should be building in a post-midseason world. With Sated's magic proc gone (and Bloodrazor's damage being entirely physical), armor's better protection against Master Yi than it's ever been. Coupled with some changes to the new enchantment, tossing some power back in Yeezy's true damage will help him melt through sturdier targets when he can't reach the back line.
+
+<BT>> Nocturne
+<S>Passive has an AP ratio.
+
+<+S>> Passive - Umbra Blades
+<E>New: Now additionally scales with 0.15 AP per hit
+
+<GS>> Context
+<C>We know what you're thinking, but let's explain. There are an abundance of things in the game that give ability power incidentally (Guinsoo's Rageblade, Baron Buff etc), making a number of champions sad when they can't utilize it. Giving Nocturne an ever so slight ratio should make him feel better when these cases arise.
+
+<BT>> Shyvana
+<S>W has an AP ratio.
+
+<+S>> W - Burnout
+<E>New: Now additionally scales with 0.1 AP/s
+<E>New ration on-hit: Now additionally scales with 0.025 AP on-hit
+
+<GS>> Context
+<C>Pretty much the same thing as Nocturne's context. Re-read that but pretend we said �Shyvana' instead.
+
+<BT>> Swain
+<S>Health per level up. R heals more.
+
+<+S>> HEALTH GROWTH STAT 78 -> 90
+<+S>> Q - Decrepify
+<E>New: Now executes minions below 10 health
+<E>Bug fix: Fixed a bug where spell effects like Rylai's Crystal Scepter and Liandry's Torment weren't applying properly
+<+S>> R - Ravenous Flock
+<E>Healing vs champions: 75% of the damage dealt -> 30/45/60 (+0.1 AP)
+<E>Healing vs minions and monsters: 15% of the damage dealt -> 8/11/13 (+0.03 AP)
+
+<GS>> Context
+<C>Before we talk about Swain proper, consider this a public service announcement: Torment's damage amplification is a flat 20% as of 6.9, which means you shouldn't level it first.
+
+With that out of the way, let's talk Swain. Simply put, Swain's not being rewarded enough for his early-game successes, often being ignored or phased out as the game goes on. We're looking to tackle this by reinforcing what he's good at - taking hits on the front lines and being a sticky drain-tank, especially against teams with multiple tanks. At present, Swain's healing is based on the damage dealt - meaning the more magic resist an opponent has, the less health. This means the burly tanks of the world that Swain's meant to prey on in lane quickly turn predator, reducing both Swain's damage and sustain through items. We're flipping the script and letting Swain heal up on tanks with plenty to spare (as well as upping his own natural durability) to keep his fantasy of being contextually unkillable alive and well.
+
+<BT>> Taric
+<S>R is more shiny.
+
+<+S>> R - Cosmic Radiance
+<E>Clarity: Added a brighter particle that plays when units affected by Cosmic Radiance become invulnerable
+
+<GS>> Context
+<C>Even for someone that shines as bright as Taric, Cosmic Radiance can be a little hard to see in teamfights. Given how pivotal it is to know whether or not people are going to take damage (who'd have thought?), we've put some extra shine on Taric's biggest moment.
+
+<BT>> Tryndamere
+<S>R holds you at a higher threshold. No longer restores 3% health if below.
+
+<+S>> R - Undying Rage
+<E>Minimum health: 1 -> 30/50/70
+<E>Removed: No longer heals Tryndamere to 3% of his maximum health (if he was below that) when Undying Rage ends
+
+<GS>> Context
+<C>Tryndamere had an undocumented mechanic that would ensure you wouldn't end at 1hp after his ult expired if you didn't heal (which most people didn't notice, because they'd usually heal after it ended). We're just cleaning it up and putting it in the tooltip, since 3% of Tryndamere's health almost always ended up at 30-70 health anyways.
+
+<BT>> Vel'Koz
+<S>Passive and R ratios up.
+
+<+S>> Passive - Organic Deconstruction
+<E>RATIO 0.4 AP -> 0.5 AP
+<+S>> R - Life Form Disintegration Ray
+<E>RATIO 1.0 AP -> 1.25 AP
+
+<GS>> Context
+<C>Vel'Koz's update was meant to help solve his �spikes early but falls off' power-curve by giving him meaningful scaling with ability power (and extra spicy lasers against researched targets). After a patch of careful research, it's clear we didn't go far enough to avoid VK's drop-off, so we're cranking up his scaling.
+
+<BT>> Vladimir
+<S>R's healing on champions increased. Q baits you less.
+
+<+S>> R - Hemoplague
+<E>Healing vs champions 50% of the damage dealt -> 150/250/350 + 0.7 AP, increased by 50% for each additional champion hit beyond the first
+
+<GS>> Context
+<C>Our resident blood-mage, Vladimir's only partially living up to the expectations set in 6.9. Which is to say Vlad's losing quite a lot of health, but not exactly gaining all of it back. Hemoplague promises a rewarding second wind for a well-placed ultimate, but falls short of being the lifeline necessary to enable Vlad's health as a resource. We're tuning back his risk/reward paradigm as well as some usability improvements to help Vladimir pull off the daring low-health plays he's known for.
+
+<BT>> Zyra
+<S>Passive-spawned seeds can be stepped on faster.
+
+<-S>> Passive - Garden of Thorns
+<E>Seed immunity: Can be stepped on 1.5 seconds after spawning -> 1 second after spawning (W - Rampant Growth seeds remain at 1.5 seconds of immunity)
+
+<GS>> Context
+<C>Zyra's Midseason is off to a good start, comfortably blooming into a botanical powerhouse. We're not looking to do anything dramatic - just adjusting Garden of Thorns to be less punishing for those on the wrong side of the grass.
+
+<YN>> Items
+<BT>> Enchantment: Bloodrazor
+<S>Attack speed and on-hit damage up.
+
+<+S>> AS: 40% -> 50%
+<+S>> On-hit damage: 3% of the target's maximum health -> 4% of the target's maximum health
+
+<GS>> Context
+<C>The new Bloodrazor allows junglers like Shyvana and Master Yi to feel more comfortable interacting with other players early on, rather than obligated to farm the jungle for twenty minions. That said, thanks to the relatively weak combat strength of Bloodrazor, they're not enjoying the results of those interactions. Without being pinned to farming, attack speed junglers have reasons to duel enemy junglers, gank, or otherwise scrap for early-mid game advantages - they just need reasons to believe they can win those duels. Upping combat strength is the solution here.
+
+<YN>> Summoner Spells
+<BT>> Barrier
+<S>Cooldown decreased.
+
+<+S>> Cooldown: 210s -> 180s
+
+<GS>> Context
+<C>Right now, Barrier doesn't really have anything to differentiate it from Heal, leaving it outclassed by the less temporary nature of Heal. A lower cooldown should offer Barrier a unique identity as the go-to summoner spell against repeated assassin all-ins.
+
+<BT>> Ghost
+<S>Cooldown decreased. Movement speed scales with level.
+
+<+S>> Cooldown: 210s -> 180s
+<+S>> Movement speed bonus: 27% at all levels -> 28-45% (at levels 1-18)
+
+<GS>> Context
+<C>With the removal of Distortion Boots, Ghost lost out on the scaling power it had come to rely on. Given Ghost's consistent underselection relative to Flash, buffing the summoner spell won't make it a must take, while still keeping the late game feel it previously had.
+
+<YN>> Bugfixes
+<YS>- Fixed a false error message that occurred when entering a game lobby
+<YS>- Final Boss Veigar's Q - Baleful Strike no longer turns units invisible when killing them
+<YS>- Fixed a number of interactions with Cassiopeia's W - Miasma Grounded debuff
+<YS>- Varus's Q - Piercing Arrow no longer occasionally deals damage against spell shielded targets
+<YS>- Annie's R - Summon: Tibbers cooldown no longer resets to full if Tibbers lives past the end of the ability's cooldown
+<YS>- Frozen Heart's aura no longer pops Malzahar's Passive - Void Shift
+<YS>- Fixed a bug where Ahri's W - Fox-Fire could spawn less than three flames if cast at the same time as Ahri used Flash
+<YS>- Zigg's Passive - Short Fuse cooldown is now properly reduced when casting spells while W - Satchel Charge is active
+<YS>- Fixed a bug where Zyra's Q - Deadly Spines could cause the wrong seeds to spawn Thornspitters
+<YS>- Fixed a bug where flat armor reduction effects (ex. Nasus's E - Spirit Fire) reduced jungle monster armor by more than the intended amount as monster stats scaled over time
+<YS>- The Lifeline cooldown of Sterak's Gage no longer resets to full after the Sterak's Fury buff expires
+<YS>- Fixed a bug where Zz'Rot Portal's Voidspawn were ignoring minions
+<YS>- Restored Curling Veigar's vintage border for players who owned him as a limited skin

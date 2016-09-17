@@ -1,0 +1,193 @@
+B48E7732
+<+N>> MAGE UPDATE
+<BT> Aram game mode changes
+<+S>> Visit: http://na.leagueoflegends.com/en/news/game-updates/patch/patch-612-notes
+
+<YN>> Champions
+<BT>> Corki
+<S>W cooldown adjusted. E deals more damage and stacks his shred faster.
+
+<-S>> W - Valkyrie
+<E>Cooldown: 26/23/20/17/14s -> 20/19/18/17/16s
+<+S>> E - Gatling Gun
+<E>Damage: 80/128/176/224/312 -> 80/140/200/260/320
+<E>Ticks per second: 2 -> 4 (now 16 ticks over 4s)
+<E>Max Shred: At max shred, further ticks against the same target refresh the shred duration.
+
+<GS>> Context
+<C>Continuing our work from last patch, we're giving Corki some love to help reclaim the mid-game power he once possessed. As we progress on the (flight) path of Corki buffs, we're taking care to emphasize his unique traits rather than give him generic strength. This time around, smoother Gatling Gun shreddage and more ROFLcoptering should play up Corki's fantasy of ‘yordle fighter pilot'.
+
+<BT>> Fizz
+<S>Fizz's hitbox is larger. W base damage down, E cooldown up.
+
+<-S>> Hitbox radius: 30 -> 55 (now matches Teemo)
+<-S>> W - Seastone Trident
+<E>Damage over time: 4/5/6/7/8% target's missing health over 3s -> 4/4.5/5/5.5/6% target's missing health over 3s
+<-S>> E - Playful / Trickster
+<E>Cooldown: 16/14/12/10/8s -> 18/16/14/12/10s
+
+<GS>> Context
+<C>Stop us if you've heard this one before - a sticky assassin builds primarily defense and is hard to interact with. Snark aside, Fizz's changes this patch are just another shade of Ekko's from updates past - namely, cutting the amount of base damage he has access to and limiting his effectiveness with cooldown reduction. Expanding on that last point, cooldown reduction was previously a hard stat to come by - making things like ‘8 second cooldown on Playful/Trickster' feel more acceptable, given the inherent sacrifices in Fizz's build. Now that we're embracing CDR heavy builds, limiting what Fizz (and other assassins like him) can do when capped is key to their long-term health. In the end, these changes should make Fizz less threatening when he's not investing in the necessary offense.
+
+<BT>> Syndra
+<S>W and E ratios up.
+
+<+S>> W - Force of Will
+<E>Ratio: 0.7 AP -> 0.8 AP
+<+S>> E - Scatter the Weak
+<E>Ratio: 0.4 AP -> 0.5 AP
+
+<GS>> Context
+<C>Syndra's fantasy as an all-powerful transcendent being has always been at odds with her power curve in-game. Traditionally, Syndra spikes hard mid-game, looking to ride a series of Scatter the Weak stuns to pick off stragglers, leading her team to a massive advantage. While that part of the bargain's stayed constant post mid-season, Syndra's now falling off harder than anticipated. Tossing power into Syndra's scaling should give her a nice fall-back when struggling, as well as push her even further ahead when unleashing her power.
+
+<BT>> Xin Zhao
+<S>Base health and health per level up.
+
+<+S>> Base health: 591 -> 600
+<+S>> Health growth: 87 -> 92
+
+<GS>> Context
+<C>Xin's taken a hit in a post-Devourer world, but for most of the game we're actually pretty happy with the pace of his damage after diving in. Pre-6.9, Devourer + Rageblade allowed Xin to kill enemies too quickly - they'd rarely have time to react. Rather than tune his damage up (and shorten that reaction window again), we're upping Xin's durability to keep him feeling happy about ramming his face into the back lines, especially given his lack of an exit-strategy once committed.
+
+<YN>> Items
+<BT>> Infinity Edge
+<S>+5 AD
+
+<+S>> AD: 65 -> 70
+
+<GS>> Context
+<C>Standard marksman itemization is centered around combining a B.F. Sword upgrade and a Zeal upgrade. This pairing is an engine of efficiency for basic attack strength: attack damage adds raw power, while crit chance and attack speed multiply it. Stats from subsequent items further fuel this engine, which is why most marksmen excel as late-game damage threats.
+
+<C>At present, the two-item threshold is slightly less impactful than it should be for the 6k+ gold investment it demands. Marksmen shouldn't transform into unstoppable killing machines with just two items, but they should at least feel like they can contribute to their teams. We're adding a bit more bang for the buck to ensure a marksman's initial gold investment feels like progress toward late game power, not just a prerequisite for it.
+
+<BT>> Essence Reaver
+<S>+5 AD
+
+<+S>> AD 65 -> 70
+
+<GS>> Context
+<C>Essentially the same context as Infinity Edge above. Go read that.
+
+<BT>> Lord Dominik's Regards
+<S>+10 AD
+
+<+S>> AD 40 -> 50
+
+<GS>> Context
+<C>Last Whisper's upgrades give marksmen options to pierce through defense-stacking foes, sacrificing generic damage for effectiveness against tanks. In their current state, however, these 'options' are only viable when their effects can be applied to multiple enemies. At 40 AD, Lord Dominik's and Mortal Reminder force an excessively high damage tradeoff versus, say, The Bloodthirster or Mercurial Scimitar. In other words, investing in them hamstrings a marksman's ability to kill anything that's not a tank. We're giving Lord Dominik's and Mortal Reminder a bump so itemizing against the enemy frontline doesn't forfeit your ability to fight their backline.
+
+<BT>> Mortal Reminder
+<S>+10 AD
+
+<+S>> AD 40 -> 50
+
+<GS>> Context
+<C>Reminder that we gave context for this change in the Lord Dominik's section above!
+
+<BT>> Bilgewater Cutlass
+<S>Cost down.
+
+<+S>> Combine cost: 400 gold -> 250 gold
+<+S>> Total cost: 1650 gold -> 1500 gold
+<-S>> Upgrades: Hextech Gunblade and Blade of the Ruined King combine costs have been increased by 150 gold. Total cost for both items is unchanged.
+
+<GS>> Context
+<C>The combine cost of Bilgewater Cutlass pays exclusively for its active effect - you gain no stats by upgrading it. 400 gold is a steep price for a small slow and a bit of damage, so we're dropping the cost to more reasonable levels.
+
+<BT>> Youmuu's Ghostblade
+<S>-5 AD
+
+<-S>> AD 65 -> 60
+
+<GS>> Context
+<C>Just as marksmen scale with critical strike and attack speed, casters and assassins scale with cooldown reduction and flat armor penetration. Youmuu's Ghostblade fills this ‘core scaling item' niche for casters and assassins, but also everyone who builds AD due to how much power it brings in raw stats. We want Ghostblade to stay useful for the classes it serves, so rather than reduce its secondary stats, we're shaving off a bit of attack damage. Combined with buffs to other AD items this patch, we're hoping the relative difference is sufficient to create a meaningful tradeoff for picking Youmuu's if CDR and flat pen aren't your main stats.
+
+<BT>> Rod of Ages
+<S>Cost increased. Health restore on mana spend decreased.
+
+<-S>> Combine cost: 650 gold -> 750 gold
+<-S>> Total cost: 2600 gold -> 2700 gold
+<-S>> Mana to health conversion: 0.25% -> 0.2%
+
+<GS>> Context
+<C>There are two issues here, so let's tackle them separately. First off, Rod itself is a little too efficient. We want to preserve the item's appeal to its core users (i.e. mages that need the health for close-quarters brawling with large mana-sinks), but Rod's statline is such a strong incentive at present that even non-Rod users are making the switch - so we're taking it down a peg.
+
+<C>As for the other changes, that's more to do with Catalyst's upgrades at large than Rod specifically. Simply put, the sustain that Catalyst's mana to health conversion gives seems fair for the stage of the game in which you initially pick it up, but gets out of line as users amass even larger mana pools to bolster their health bars. Considering ‘amassing larger mana pools' is what catalyst users actually want to do, we're cutting the sustain instead.
+
+<BT>> Hextech GLP-800
+<S>Health restore on mana spend decreased.
+
+<-S>> Mana to health conversion: 0.25% -> 0.2%
+
+<GS>> Context
+<C>Like we said in the above section, Catalyst's upgrades heal too much once you start getting a big mana pool. Context!
+
+<BT>> Righteous Glory
+<S>Health restore on mana spend decreased.
+
+<-S>> Mana to health conversion: 0.25% -> 0.2%
+
+<GS>> Context
+<C>We're not going to repeat ourselves. Scroll up to the other sections!
+
+<YN>> Masteries
+<BT>> Grasp of the Undying
+<S>More damage, less sustain.
+
+<+S>> Damage on-hit: 2.5% of your maximum health -> 3% of your maximum health
+<-S>> Healing on-hit: 2.5% of your maximum health -> 1.5% of your maximum health
+
+<GS>> Context
+<C>Despite our efforts earlier this season, Grasp of the Undying is still far too common in the top lane, crowding out other keystone masteries. Grasp is supposed to give tanks a little more oomph in combat, but its sustain is fairly excessive, cheapening the risk and reward of aggressive action. Grasp of the Undying should still be the go-to mastery for beefy solo lane champions, but combat from Grasp users will now mean something rather than immediately being sustained away.
+
+<BT>> Fervor of Battle
+<S>Abilities give fewer stacks.
+
+<-S>> Stacks per ability cast: 2 -> 1
+
+<GS>> Context
+<C>Fervor of Battle is simply too good at what it does. It works great as a basic attacker's best friend, letting those with attack speed quickly gain stacks. Currently, single target abilities grant stacks of Fervor as well - twice as many as a basic attack, to be precise. While abilities should count toward building Fervor, champions who work spellcasts into their attack cycles are overperforming in the race to full stacks. We're maintaining Fervor of Battle as a great choice for attack speed lovers while leveling the playing field in the marksman mastery space.
+
+<BT>> Double Edged Sword
+<S>Same benefits for all, regardless of range.
+
+<+S>> Removed: No longer has split effectiveness for ranged or melee champions (now 3% damage increase / 1.5% increased damage taken for everyone)
+
+<GS>> Context
+<C>For ranged champions, the risk/reward nature of Double Edged Sword doesn't hold a candle to the power of Feast. The benefits Double Edged Sword offers to melee champions give them respectable value, so we're bringing ranged champions up to speed.
+
+<BT>> Natural Talent
+<S>More ability power and attack damage early. Less ability power and attack damage per level.
+
+<+S>> AD at level 1: 0.4 per rank (+2 at rank 5)
+<+S>> AP at level 1: 0.6 per rank (+3 at rank 5)
+<+S>> AD per level: 0.11 per rank -> 0.09 per rank (+.45 at rank 5)
+<+S>> AP per level: 0.16 per rank -> 0.13 (+.65 at rank 5)
+<+S>> Total at level 18: +10 AD and +15 AP (unchanged)
+
+<GS>> Context
+<C>In an effort to make Natural Talent more competitive with the sustain of Vampirism, we decided to shift its power forward towards the early game. Natural Talent still grows with champions who have the potential to deal mixed damage, but now the effects are felt a little earlier.
+
+<BT>> Veteran's Scars
+<S>More health.
+
+<+S>> Health per rank: 9 -> 10
+<+S>> Total health: 9/18/27/36/45 -> 10/20/30/40/50
+
+<GS>> Context
+<C>Veteran's Scars is close to a good place but the wide range of situations in which Runic Armor can be helpful (healing, shields, etc.) means Veteran Scars needs a nudge if it wants to be a relevant alternative. Also, #cleannumbers are just better, it's science.
+
+<YN>> Bugfixes
+<YS>- Fixed a bug where turrets on Howling Abyss and Twisted Treeline were dealing slightly more damage to champions than intended
+<YS>- Fixed a few interactions between Hextech Protobelt-01's active and empowered attacks (ex. Ekko's E - Phase Dive)
+<YS>- Fixed a bug where Elise's E - Cocoon stun was cut short if, after casting Cocoon, Elise instantly switched to R - Spider Form and cast E - Rappel on the Cocoon'd target
+<YS>- When Xin Zhao attacks Jax during E - Counterstrike, the attacks Jax dodges no longer count as hits for Xin's W - Battle Cry's healing passive
+<YS>- Sion can no longer restart his Q - Decimating Smash in a different direction by pressing R+Q during Decimating Smash's channel
+<YS>- Fixed a visual bug where Lux could sometimes appear to cast multiple R - Final Sparks in rapid succession. Only the final Final Spark was real! Ghost lasers should no longer appear.
+<YS>- The spectral riders of Headless Hecarim's R - Onslaught of Shadows are once again visible. Still spooky, though.
+<YS>- Restored warning particles when Snow Day Gnar and Gentleman Gnar are about to transform
+<YS>- Snow Day Gnar's E - Hop attack speed buff particles no longer cut off at certain angles
+<YS>- Shadowfire Kindred's basic attack particles are now easier to see
+<YS>- Fixed a bug where Shadowfire Kindred's Wolf would appear as two Wolves stacked on top of each other to everyone except Kindred
+<YS>- Omega Squad Teemo no longer copies Classic Teemo's movement voiceover lines when both are in the same game
+<YS>- Pool Party Mundo's busted ukelele no longer jitters on the ground at the end of his recall animation

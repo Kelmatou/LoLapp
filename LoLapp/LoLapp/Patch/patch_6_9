@@ -1,0 +1,359 @@
+FBAF887E
+<+N>> MAGE UPDATE
+<BS>Brand, Cassiopeia, Malzahar, Vel'Koz, Vladimir, Zyra and more...
+<+S>> Visit http://na.leagueoflegends.com/en/news/game-updates/patch/patch-69-notes
+
+<YN>> Champions
+<BT>> Azir
+<S>R no longer pins targets to walls
+
+<-S>> R - Emperor's Divide
+<E>New: Emperor's Divide is less likely to pin enemies to terrain, instead pushing them over narrow walls or dropping them behind the phalanx if the wall is too thick
+
+<GS>> Context
+<C>The flashy playmaking nature of Azir's ult befits his status as ruler of an empire, but Emperor's Divide becomes oppressive when it pins enemies against terrain for 5+ seconds. We're removing the abuse case to keep Azir honest.
+
+<BT>> Illaoi
+<S>Vessel debuff greatly shortened, but spawns tentacles faster.
+
+<+S>> Passive - Prophet of an Elder God
+<E>New: Tentacles no longer appear in Fog of War (Tentacles stay revealed once you've seen them for the first time)
+<-S>> E - Test of Spirit
+<E>Removed: Vessels can no longer clear their debuff by killing Tentacles
+<E>Removed: Tentacles are no longer prevented from spawning if the Vessel is recalling
+<E>Vessel debug duration: 60s -> 12s
+<E>Vessel tentacle cooldown: Tentacles spawn near Vessels once every 10s -> once every 5/4/3s (at levels 1/7/13)
+<E>Vessel tentacle density: Tentacles spawned by a Vessel spawn 1000 units apart -> 700 units apart
+
+<GS>> Context
+<C>Despite being Illaoi's most interesting ability, Test of Spirit mostly ends up testing the patience of those involved. Being tested forces a tough choice onto Illaoi's opponents, telling them fight or suffer the consequences. This choice is usually a trap - fighting Illaoi in close quarters is a death sentence given her massive area damage. Escaping the zone means slogging through waves of tentacles, which isn't much better most of the time.
+
+<C>On Illaoi's side, turning someone into a vessel is really only a consideration for the laning phase. Once you're testing spirits in teamfights, the minute-long debuff rarely matters. We want all participants of the Test to feel like they're getting a fair shake, so we're shifting around some mechanics to compress what it means to be a vessel. Illaoi gets to pressure opponents in a way that's meaningful in teamfights (her forte), but her victims don't have to deal with her lectures for an eternity.
+
+<BT>> Kindred
+<S>Q cooldown up while in Wolf's Frenzy. W lasts longer and deals bonus damage to monsters.
+
+<-S>> Q - Dance of Arrows
+<E>Cooldown while in Wolf's frenzy: 2s at all ranks -> 4/3.5/3/2.5/2s
+<+S>> W - Wolf's Frenzy
+<E>Duration: 8s -> 8.5s
+<E>Charges: Hunter's Vigor gains less charge from movement
+<E>New: Hunter's Vigor charges when Lamb basic attacks
+<E>New: Wolf deals 50% bonus damage to monsters
+
+<GS>> Context
+<C>Let's call a wolf a wolf - Kindred's early game is out of line. We want Kindred to be able to pressure the map (especially through expert control of their Marks), but invading top-tier duelists with impunity is pushing it. We're adjusting their clearing ability to stay roughly the same, but Kindred will need to pick their battles a little more carefully if they want to start scaling out of control.
+
+<BT>> Mordekaiser
+<S>Elder Dragon ghost is stronger than Dragon ghosts.
+
+<+S>> R - Children of the Grave
+<E>Dragon health: Elder Dragon's ghost is larger and has 50% more health than normal Dragon ghosts!
+
+<BT>> Nidalee
+<S>Takedown's execute now scales with ult rank.
+
+<-S>> Q - Takedown
+<E>Execute bonus damage: 1.5% per 1% of the target's missing health -> 1/1.25/1.5/1.75% per 1% of the target's missing health (based on rank of R - Aspect of the Cougar)
+
+<GS>> Context
+<C>While we're on the subject, you can't mention powerful early game junglers without mentioning the Bestial Huntress herself. Another outlier, we're taking a crack at Nidalee's early kill pressure while ensuring she has the bite she needs for her risky late-game assassination plays.
+
+<BT>> Rengar
+<S>E no longer flies in random directions.
+
+<+S>> Passive - Unseen Predator
+<E>New: Rengar's jump strikes now proc Energized effects (Statikk Shiv, etc.)
+<+S>> Q - Savagery
+<E>Bug fix: Fixed a bug where Savagery consumed Spellblade or Dead Man's Plate effects without dealing damage
+<+S>> E - Bola Strike
+<E>Targeting: Bola Strike fires toward the spot Rengar targeted -> in the direction Rengar cast it
+<E>Cast time: Mostly 0.25s but sometimes 0.125s -> 0.25s
+<E>Bug fix: Fixed a bug where reaching max Ferocity at the same time as casting Bola Strike (ex. during Thrill of the Hunt) could put Empowered Bola on cooldown or immediately consume Rengar's Ferocity stacks
+<+S>> R - Thrill of the Hunt
+<E>Bug fix: Fixed a bug where Rengar sometimes only gained 4 Ferocity after exiting Thrill of the Hunt
+
+<GS>> Context
+<C>These are mostly bugfixes, with the exception of Bola Strike. Previously, Bola Strike would always try to fire at the location Rengar targeted once its cast delay completed. When targeting distant points, Rengar's movement (ex. a jump strike out of ult) during Bola Strike's short cast time wouldn't change much. When targeting a nearby spot, however, Rengar could suddenly end up in front of the target location he had previously been behind. Bola Strike would then fire in the complete opposite direction it was cast. We're changing Bola Strike's targeting system to fix that unreliability.
+
+<BT>> Soraka
+<S>Q slow and movement speed down. No longer refreshes Windspeaker's.
+
+<-S>> Q - Starcall
+<E>Slow amount: 30/35/40/45/50% -> 30% at all ranks
+<E>Rejuvenation movement speed: 15% -> 10%
+<E>Removed: Rejuvenation no longer refreshes Windspeaker's Blessing
+
+<GS>> Context
+<C>Soraka's changes are all about injecting more risk when she wades into the fray to provide assistance. For a champion that already pumps out amazing heals, the strength of Soraka's kiting doubles up on denying any sort of aggression that comes her way. By cutting down on Starcall's over-the-top protective tools, Soraka becomes less of a one-stop-shop for protection without losing the healing potential she's picked for.
+
+<C>Lastly, a quick note on Rejuvenation's on interaction with Windspeaker's Blessing. Windspeaker's was made in a world without any healing over time effects - and as such, wasn't really balanced around high uptimes. Enter Soraka's Rejuvenation mechanic back in 6.5 and now she's tossing around 6-8 second armor and magic resist buffs off of a single spellcast. It's possible that we revisit this mechanic and work on clearly defined rules about how HoT's (and other heals) should interact with Windspeakers, but for now we're not comfortable with the amount of strength it's adding to a single champion.
+
+<BT>> Taric
+<S>Base mana up, mana growth down. W range down. E is shorter and narrower.
+
+<+S>> Base mana: 250 -> 300
+<-S>> Mana growth: 75 -> 60
+<-S>> W - Bastion
+<E>Max cast range: 1100 -> 800
+<E>Max leash range: 1600 -> 1300
+<-S>> E - Dazzle
+<E>Length: 650 -> 575
+<E>Width: 150 -> 140
+
+<GS>> Context
+<C>An old champion with a new coat of gems, Taric's tearing up the battlefield while keeping his teammates spotless. A protector in the truest sense, the issue of Taric's current power level isn't how well he saves his allies - but rather the considerable range at which he's able to influence the fight. This doesn't come up much in lane (as Taric's usually next to his bastion-buddy), but once ganks and teamfights start entering the picture things get messy. We're trimming Taric's excess power and focusing him around being the dependable shield you carry with you to a fight, committing him to stick close to his team if he wants to have the same impact.
+
+<BT>> Teemo
+<S>More traps.
+
+<+S>> Passive - Camouflage
+<E>New: Entering stealth won't interrupt autoattacks in wind-up
+<-S>> Q - Blinding Dart
+<E>Cost: 70/80/90/100/110 mana -> 70/75/80/85/90 mana
+<-S>> R - Noxious Trap
+<E>Cost: 75/100/125 mana -> 75 mana at all ranks
+<E>Ammo recharge time: 34/28/22s -> 30/25/20s
+
+<GS>> Context
+<C>Alright. We know people are going to come into this section thinking 'Why buff Teemo?', but let's be honest with ourselves. While Teemo's always been a serviceable laner, the Swift Scout has been on the weaker side of the spectrum for a long while. The root causes are many, but we're targeting two: Teemo's awkward mana usage, and his inability to set up the mushroom fields he's known for.
+
+<C>Getting into specifics, Teemo players find themselves opting into sometimes ranking up W - Move Quick not because it's particularly good, but so the costs of his other spells don't go through the roof. Similarly, a Teemo that's behind is pressured against laying traps due to their high cost and cooldown, making them lackluster when the enemy team's already gaining control of the map. Releasing the mana pressures across Teemo's kit allows him to spend more time thinking critically about when and where to use his abilities.
+
+<BT>> Zac
+<S>Revives faster at higher levels.
+
+<+S>> Base movement speed: 335 -> 340
+<+S>> Passive - Cell Division
+<E>Revive timer: Blobs reform after 8s -> 8/7/6/5/4s (at levels 1/5/9/13/17)
+
+<GS>> Context
+<C>Most tanks have been excited to jump into the fray in 2016, but Zac's been unexpectedly absent. Zac's already best-in-class when it comes to getting into sticky situations, but Cell Divison shifts dramatically from an early-game boon to a limp extended late-game death. Considering long-range initiation is kind of Zac's thing, the fact that he tends to land in risky situations shouldn't feel as punishing as it does later on. We're tweaking the Secret Weapon's specs to help him maneuver the backlines and to give him a fighting chance of bouncing back into action (should his team provide the necessary assistance).
+
+<YN>> Items
+
+<BT>> Boot Enchantments (Removed)
+
+<-S>> Removed: Boot enchantments have been removed from the shop
+
+<GS>> Context
+<C>With Homeguard no longer being tied to the enchantment system, almost all of the remaining options are very broad bonuses to movement. As seen earlier this season, bonus movement speed is a dangerous thing to stack, with boot enchants being a major contributor. When considering how warping Alacrity's been toward introducing movement speed into the item system (and how potentially warping Captain or Fervor can be), we're pulling the system to put a tighter leash on the ways champions can gain extra speed.
+
+<C>It's possible that we'll revisit the concept of boot enchants in the future, but only after we find ways for it help dodge mobility creep - not enforce it.
+
+<BT>> Enchantment: Devourer (Removed)
+<S>Goodbye, Ghost Dog.
+
+<+S>> Removed: Enchantment: Devourer has been removed from the shop
+
+<GS>> Context
+<C>For years we've tried to provide junglers an item that helps them burn through the jungle, but despite multiple seasons of iteration we've failed to find an incarnation of 'stacking jungle rewards' that wasn't problematic. While Devourer is an incremental improvement over past incarnations (shout-outs to those who remember Feral Flare's insane healing and vision control), the primary problem with 'farming junglers' is that you don't see them for half the game. Junglers are an integral part of how teams in League operate, and incentivizing them to AFK for the 15 minutes is too high a cost to be healthy long-term. We still want to support junglers that like high attack speed and on-hit builds, but this isn't the way to do it.
+
+<BT>> Enchantment: Bloodrazor (New)
+<S>Everything old is new again.
+
+<+S>> Total cost: 2625 gold
+<+S>> Build path: Tier 2 Jungle Item + Recurve Bow + 625 gold
+<+S>> AS: 40%
+<+S>> Bloodrazor Unique Passive: Basic attacks deal 3% of the target's maximum health as bonus physical damage (maximum 75 damage vs minions and monsters)
+
+<GS>> Context
+<C>Bloodrazor's back from its years of traveling the world to be the jungle item we deserve. Attack speed junglers break down into different audiences, and Bloodrazor caters to both. Tankier on-hit champions (like Shyvana and Warwick) will find it an appropriate centerpiece to their natural synergies, while Kindred and Master Yi can pair it with Blade of the Ruined King and armor penetration for scaling builds.
+
+<C>The removal of Devourer and the inclusion of Bloodrazor means that junglers will feel better about jumping directly into battle after finishing their item rather than waiting for it to power up. There will always be junglers who prioritize farming, and there will always be junglers that will rarely gank your lane - the key is that these decisions will be up to the player and their champion's kits, not forced by the items they buy into.
+
+<BT>> Guinsoo's Rageblade
+<S>Upgraded to an end-game item. Now has Sated Devourer's Phantom Hit passive.
+
+<-S>> Total cost: 2800 gold -> 3600 gold
+<-S>> Build path: Blasting Wand + Pickaxe + Recurve Bow + 875 gold
+<+S>> AD: 30 -> 35
+<+S>> AP: 40 -> 50
+<+S>> New: Deals 15 magic damage on-hit
+<+S>> Passive: Basic attacks grant +8% AS, +3 AD, and +4 AP for 5 second (this effect stacks, granting Guinsoo's Rage at max stacks)
+<-S>> Max stacks: 8 -> 6
+<-S>> Removed: No longer gives two stacks for melee champions
+<-S>> Removed: No longer deals AoE damage on-hit during Guinsoo's Rage
+<+S>> New: During Guinsoo's Rage, every other basic attack will trigger on-hit effects an additional time
+
+<GS>> Context
+<C>We couldn't have a section with Devourer without addressing Guinsoo's Rageblade as well. Rageblade's a controversial item on live, but we're convinced it feels far more overbearing than it actually is. Its power blooms specifically in the hands of basic-attack focused champions looking to snowball a lead, versus being generically too powerful. Even when it's played on other champions (shout-outs to Tristana), it's to fill a specific early-game niche.
+
+<C>That said, a large part of Guinsoo's balance depends on it being kept behind a few really unsatisfying barriers. For instance, it has the worst build path in the game - creating a low point of power as you struggle to accumulate its exorbitant combine cost. On the flip side, finishing Rageblade spikes you far harder than most items at that price point, creating a race to keep Rageblade users down before they can become relevant. When the correct play against Rageblade is 'snowball incredibly hard or lose,' we can do better.
+
+<C>Our solution is to upgrade Guinsoo's into a top-tier endgame item for the champions who value hybrid stats and on-hit builds. This allows for a more steady progression of power, as well as allowing us to put the much-coveted 'Phantom Hit' passive within arm's reach of non-junglers. We'll let you think of some of the more powerful combos (Aatrox?), but rewarding champions with access to top-shelf on-hit insanity once they've committed to combat feels like an appropriate gate for skirmishers and divers alike.
+
+<BT>> The Black Cleaver
+<S>Cost reduced. -5 AD.
+
+<+S>> Total cost: 3500 gold -> 3100 gold
+<+S>> Combine cost: 1150 gold -> 750 gold
+<-S>> AD: 55 -> 50
+
+<GS>> Context
+<C>For those keeping up with recent top lane trends, builds have skewed toward the tankier end for the majority of 2016. Black Cleaver is a natural 'release valve' to help counter these champions, providing necessary shred and sticking power to run down even the beefiest defenders. When we noticed that its primary users (Renekton, Gnar, Riven to name a few) weren't in the best spot performance wise, it made sense to bring the item that binds them together down to the price-points of other important powerspikes.
+
+<BT>> Spectre's Cowl
+<S>Costs more. More health, less magic resist.
+
+<-S>> Total cost: 1100 gold -> 1200 gold
+<+S>> Health: 200 -> 250
+<-S>> MR: 35 -> 30
+
+<GS>> Context
+<C>After reshaping and reinforcing the equipment mages have at their disposal, it stands to reason that we'd bolster the options to defend against them as well. Maw and Abyssal Scepter are solid purchases for the damage-minded, but the marquee tank options of the magic resist family need some work.
+
+<C>All of that begins with Spectre's Cowl. Funnily enough, Cowl actually has the opposite problem of its upgrades - it's too efficient for its cost, to the point that tanks are often happy leaving it un-upgraded far into the game. We want them to feel good about sitting on Cowl in lane, but tinkering with its efficiency should pressure tanks into spending more gold to get their desired magical defenses.
+ 
+<BT>> Banshee's Veil
+<S>Health and cost down. Recipe changed.
+
+<+S>> Total cost: 2900 gold -> 2450 gold
+<+S>> Build path: Spectre's Cowl + Negatron Cloak + 530 gold
+<-S>> Health: 500 -> 300
+
+<GS>> Context
+<C>Banshee's Veil offers an entirely unique effect in the item lineup, but its similar price-point and statline to Spirit Visage do more harm than good for BV's chances of actually being purchased. Normally too expensive compared to its cousin, we're shrinking Veil to be the earlier buy that guards against a burst mage gone wild, with an accordingly slimmer stat line. This makes it less effective in a full item build if you're aiming for pure defense, but more accessible for those in need of a spell shield on a budget.
+
+<BT>> Spirit Visage
+<S>Combine cost and magic resist down. Regen and healing up.
+
+<+S>> Combine cost: 900 gold -> 800 gold
+<-S>> MR: 70 -> 55
+<+S>> Health regen: 150% -> 200%
+<+S>> Passive healing increase: 20% -> 25%
+
+<GS>> Context
+<C>On the other side of the Spectre's Cowl, Spirit Visage is a popular pick-up that's purchased for its pure protective stats. To differentiate it from Veil's more immediate benefits, we're pushing Spirit Visage to more comfortably fit within final builds by emphasizing its synergies with other tank items (like Warmog's).
+
+<BT>> Guardian Angel
+<S>Cost and magic resist reduced.
+
+<+S>> Total cost: 2700 gold -> 2400 gold
+<+S>> Combine cost: 1180 gold -> 880 gold
+<-S>> MR: 60 -> 45
+
+<GS>> Context
+<C>Despite our changes in 6.5, Guardian Angel's still not pulling its weight as a reactionary defensive buy. Putting it on sale at the cost of a bit of mitigation helps cement GA as the go-to item when looking for life insurance against physical divers and assassins.
+
+<BT>> Quicksilver Sash & Mercurial Scimitar
+<S>Active now only removes crowd control debuffs.
+
+<-S>> ACTIVE EFFECT The actives of Quicksilver Sash and Mercurial Scimitar now only remove crowd control debuffs
+
+<GS>> Context
+<C>The QSS and Mercurial Scimitar active has two uses: cleansing crowd control (Amumu ult) and purging combat debuffs (Zed ult). These cases differ in that crowd control is setup, while combat debuffs are the payoffs to such setup. When you cleanse CC, the enemy needs to lock you down again to aggress on you, but that tends to be a pretty reasonable ask. By contrast, cleansing a combat debuff wipes the applicator's primary means of fighting you. So, those champs are pressured to snowball before their effects become meaningless, while their opponents are forced into buying QSS even if it's incredibly inefficient to do so. This leads to destructive effects on game balance which we've left unanswered for too long. With the understanding that there may be outliers we need to address, we're unshackling combat debuff champs from their quicksilver collars.
+
+<BT>> Bami's Cinder
+<S>Health down.
+
+<-S>> Health: 300 -> 280
+
+<GS>> Context
+<C>Compared to Giant's Belt, Bami's Cinder provides everything you want and more out of a defensive component. Given that it's already got the offensive edge, we're pulling back on Cinder's efficiency so it's not always a no-brainer.
+
+<BT>> Sunfire Cape
+<S>Cost up.
+
+<-S>> Total cost: 2700 gold -> 2900 gold
+<-S>> Combine cost: 800 gold -> 1000 gold
+
+<GS>> Context
+<C>Similar to Bami's Cinder, Sunfire's efficient stats and hybrid offense/defense means it's just the best early buy in most cases. Nudging it back to the price point of the other big Health/Armor makes it easier to pick the one for the right situation, not just whichever's the cheapest.
+
+<BT>> Enchantment: Cinderhulk
+<S>Aura scales better with levels.
+
+<-S>> Immolate damage: 15 + 0.6 per level -> 7 + 2 per level
+
+<GS>> Context
+<C>For an item meant to help tanks scale into the lategame, Cinderhulk's been all but forgotten next to the shiny base damage of Runic Echoes. With Cinderhulk's intended role as an investment toward a tank's endgame statline, it didn't make much sense for it to end up weaker than Sunfire Cape's aura (considering they don't stack). We're fixing things to break even with old Cinderhulk at level 6, around when most junglers are completing it anyways.
+
+<BT>> Vision Ward
+<S>Less health, but regenerates health while out of combat.
+
+<-S>> Base health: 5 -> 4
+<+S>> New: Now regenerates 1 health every 3 seconds after 5 seconds out of combat.
+
+<GS>> Context
+<C>With their rise in popularity (ever since Stealth Wards sold out), the prevalence of Vision Wards has highlighted how cumbersome it is to clear them out. In keeping with the themes of Midseason, we're easing the burden of cutting down successive pinks while making them more valuable to defend. Vision Wards have always been a mini-objective, so now we're formalizing it.
+
+<BT>> Farsight Alteration
+<S>Cooldown up.
+
+<-S>> Cooldown: 90-60s (at levels 9-18) -> 148-99s (at levels 9-18)
+
+<GS>> Context
+<C>When it comes to diversity of Trinkets, Farsight's been on top of the vision-throne for long while. Come mid-game, stacking Farsight trinkets changes the vision game drastically - rendering certain strategies revolving around making picks or ambushing virtually obsolete. We're happy that Farsight's more flexible in a wider number of vision-control strategies, we're just adjusting so it's not also crowding out the space entirely.
+
+<BT>> Righteous Glory
+<S>No longer speeds up allies. Active speed amount and duration increased.
+
+<+S>> Total cost: 2600 gold -> 2500 gold
+<+S>> New Unique Passive - 15% of damage taken from champions is gained as Mana. Spending mana restores 25% of mana spent as Health, up to 25 health per cast (Toggle spells heal for up to 25 per second).
+<-S>> Removed: Active no longer speeds up allies
+<+S>> Active movement speed: 60% -> 75%
+<+S>> Active haste duration: 3s -> 4s
+<-S>> Active slow: 80% -> 75%
+<+S>> Active slow duration: 1s -> 2s
+
+<GS>> Context
+<C>In its current incarnation, Righteous Glory presents us with a few balancing troubles. When it's too strong, it replaces traditional initiation and warps the environment to be 'who are the best carriers of Righteous Glory and why aren't you playing them?' We're removing that consideration altogether and really pushing its synergies with individual champions. It'll be easier than ever for Righteous Glory users to run down fleeing targets, but they'll need more clever coordination than just 'run as 5 in a straight line' to start off a chaotic brawl.
+
+<BT>> Warmog's Armor
+<S>Health slightly reduced, now grants cooldown reduction.
+
+<+S>> Build path: Giant's Belt + Kindlegem + Crystalline Bracer + 400 gold
+<-S>> Health: 850 -> 800
+<+S>> New: Cooldown reduction: +10%
+
+<GS>> Context
+<C>Despite its game-changing out-of-combat regeneration, Warmog's Armor struggles to find a spot in builds for tanks and juggernauts alike. It's not that the item's subpar, but it simply doesn't fit what most champions in these classes really need out of a gold investment. Tossing in a Kindlegem should help Warmog's feel comparable to say, Spirit Visage when planning out your needs in a 6-item build.
+
+<BT>> Relic Shield
+<S>Less healing.
+
+<+S>> Charge cooldown: 60s -> 40s
+<-S>> Healing per charge: 40 health -> 20 health
+
+<GS>> Context
+<C>While not specifically tied to any of our other systems changes, botlane's feeling a little high on resources these days. The botlane meta's always lived between the extremes of being an all-in lane with low tolerance for mistakes and a sustaining paradise where poke and attrition mean very little. The pendulum's a little too far on the 'poke matters less' part of that spectrum, so we're toning back sustain from some of the more common purchases.
+
+<BT>> Targon's Brace
+<S>Less healing.
+
+<-S>> Healing per charge: 50 health -> 40 health
+
+<GS>> Context
+<C>While not specifically tied to any of our other systems changes, botlane's feeling a little high on resources these days. The botlane meta's always lived between the extremes of being an all-in lane with low tolerance for mistakes and a sustaining paradise where poke and attrition mean very little. The pendulum's a little too far on the 'poke matters less' part of that spectrum, so we're toning back sustain from some of the more common purchases.
+
+<BT>> Frostfang
+<S>Less mana regeneration.
+
+<-S>> Mana regeneration: 100% -> 75%
+
+<GS>> Context
+<C>Regeneration overall is a bit too free, so we're taking some of botlane's mana as well.
+
+<BT>> Frost Queen's Claim
+<S>Less mana regeneration.
+
+<-S>> Mana regeneration: 100% -> 75%
+
+<GS>> Context
+<C>Regeneration overall is a bit too free, so we're taking some of botlane's mana as well.
+
+<YN>> Bugfixes
+
+<YS>- Fixed a bug where Karthus's abilities sometimes failed to apply the slow from Rylai's Crystal Scepter during Passive - Death Defied. (We jumped the gun on listing this last patch - sorry!)
+<YS>- While in Passive - Death Defied, Karthus no longer creates extraneous visual effects when casting Q - Lay Waste out of range
+<YS>- Quinn no longer fails to proc Passive - Harrier when attacking a marked target immediately after canceling an attack
+<YS>- Oracle Alteration now indicates its sweep range when hovered
+<YS>- Fixed a bug that prevented players from joining premade lobbies while waiting out queue dodge penalties
+<YS>- Fixed a Clubs tag display issue with tags that started with a "-"
+<YS>- Fixed a bug where some players couldn't see their own Clubs tag in New Champ Select lobbies
+<YS>- Ward placement VO lines no longer play globally for allies on some champions and skins
+<YS>- Snow Day Singed's recall audio is no longer global
+<YS>- Battlecast Alpha Skarner no longer occasionally plays base Skarner's VO
+<YS>- Gravelord Azir no longer sometimes plays base Azir's VO on top of his own lines
+<YS>- Blackfrost Anivia's Passive - Rebirth channeling audio has been restored

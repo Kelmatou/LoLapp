@@ -1,0 +1,272 @@
+C7B016
+<YN>> Champions
+<BT>> Anivia
+<S>R cost per second up.
+
+<-S>> R - Glacial Storm
+<E>Cost: 30/45/60 mana/s-> 40/50/60 mana/s
+
+<GS>> Context
+<C>Kicking off the patch, we have a minor tune-up (or tune-down) to everyone's favorite Cryophoenix. Anivia's doing pretty well since our 6.10 follow-up, but the changes seem to have gone just a hair too far in making her storm too easy to sustain. Glacial Storm should represent a significant investment, so we're pulling back.
+
+<BT>> Azir
+<S>W is no longer usable on turrets. R duration down and no longer grants speed to allies.
+
+<-S>> W - Arise!
+<E>Removed: Can no longer spend charges to directly damage turrets
+<-S>> R - Emperor's Divide
+<E>Duration: 5/6/7s -> 3s at all ranks
+<E>Removed: No longer gives bonus movement speed to allies that pass through the wall
+
+<GS>> Context
+<C>Azir's been a priority pick for a while now, reclaiming his throne as the top-tier midlaner across the globe. With Midseason's waters still relatively untested as pro play resumes (where Azir primarily sees the most play), we're focusing on culling some of the Emperor's more extraneous power. Azir's signature strengths lie in his high sustained damage as well as his ‘Shurima Shuffle' to turn the tables on opponents with a flashy initiation. By leaving these intact, we can get a better look at how Azir fares against newer challengers to his midlane throne while still addressing his dominance.
+
+<BT>> Corki
+<S>R's ratio up.
+
+<+S>> R - Missile Barrage
+<E>Ration: 0.2/0.5/0.8 total AD -> 0.2/0.6/1.0 total AD
+
+<GS>> Context
+<C>Corki buffs when it's not even Worlds yet? Trinity Force - core on Corki - is seeing a minor rework this patch which removes its critical strike chance. Corki has already been struggling for quite a few patches now, and losing early access to crit would make Corki's late-game falloff even harsher than it already is, so we're giving Corki a boost to his late game power in a way that suits his spellcasting pattern.
+
+<BT>> Ekko
+<S>Passive cooldown per target up. Q and R's base damages down, but ratios up. W stun duration down.
+
+<-S>> Passive - Z-Drive Resonance
+<E>Cooldown on the target: 3s -> 5s
+<+S>> Q - Timewinder
+<E>Outgoing ration: 0.1 AP -> 0.2 AP
+<E>Return damage: 60/85/110/135/160 -> 40/65/90/115/140
+<-S>> W - Parallel Convergence
+<E>Stun duration: 2.25s -> 1.75s
+<+S>> R - Chronobreak
+<E>Damage: 200/350/500 -> 150/300/450
+<E>Ratio: 1.3 AP -> 1.5 AP
+
+<GS>> Context
+<C>There's a lot going on with these Ekko changes, so let's cut them in half and talk about each separately.
+
+<C>First, we're continuing to adjust the damage differences between Ekkos that build tank and those that focus on ability power. Less bases, more ratios. That bit's pretty straightforward - AP Ekko takes a lot of risks and isn't all that unhealthy, so protecting his ability to opportunistically blow up champions seems like the right way to go.
+
+<C>Second up's the real talk. Unlike previous changelists where we've been content to adjust his ratios and bases and call it a day, we're confronting Tank Ekko's balance challenges head-on. Simply put: 2.25 seconds is a lot of time to be stunned, and 3 seconds isn't a whole lot of cooldown for a slow when Ekko's got multiple slows to stack on you. While these are versatile tools for AP Ekko as a hit-and-run skirmisher, Tank Ekko disproportionately benefits from being able to consistently apply his crowd control. After all, why ‘hit-and-run' if you never have to run?
+
+<C>The overall changelist looks big, but if we want Ekko to have a sustainable spot as the in-and-out slayer he was intended to be, we have to make a fundamental shift in terms of how much crowd control he brings to the table.
+
+<BT>> Illaoi
+<S>Q increases all tentacle damage rather than tentacle ratio. W damage up. E slow down, but no longer decays.
+
+<-S>> Q - Tentacle Smash
+<E>Removed: No longer increases Tentacle damage by 0/0.1/0.2/0.3/0.4 bonus AD
+<E>New: Now increases all Tentacle damage by 10/15/20/25/30%
+<+S>> W - Harsh Lesson
+<E>Damage: 15/35/55/75/95 + 1.1 total AD -> 1.0 total AD + [3/3.5/4/4.5/5% of the target's maximum health (+2% per 100 AD)]
+<-S>> E - Test of Spirit
+<E>Slow duration: 2s -> 1.5s
+<E>New: No longer decays over the duration
+
+<GS>> Context
+<C>At present, Illaoi is synonymous with the term ‘feast or famine'. When things work out for the Kraken Priestess (like a 5 man ult), people usually aren't walking out alive - but when she's fallen behind or out of position, Illaoi quickly struggles to find her footing. These changes are aimed at limiting some of the variance in Illaoi's performance while simultaneously supporting her itemization as a Juggernaut. Currently, too much of Illaoi's damage output is in her massive offensive ratios - playing into her cycle of ‘was I able afford attack damage and survive?' that leads to such immense variance between games. Illaoi will still have to care more about positioning than the average burly fighter, but enabling mixed-defense builds should see her able to consistently contribute to fights once she gets the ball rolling.
+
+<BT>> Jax
+<S>Passive stacks drop off one at a time.
+
+<+S>> Passive - Relentless Assault
+<E>New: Stacks fall off 1 at a time rather than all at once
+
+<GS>> Context
+<C>Relentless Assault provides the core feel of Jax: a ramping threat that makes him deadly in extended fights. While focused CC should be the appropriate counterplay, he often loses all of his stacks to a single stray spell in a chaotic teamfight. Jax feeling pressure to avoid focused CC isn't a problem, but shutting the Grandmaster at Arms down should be an intentional effort, not an accident.
+
+<BT>> Kindred
+<S>Passive cooldown decreased. Q damage down, but scales with marks. E slow and damage down.
+
+<+S>> Passive - Mark of the Kindred
+<E>Champion mark cooldown: 90s -> 75s
+<E>New: Wolf now marks jungle monsters based on Kindred's current stacks
+<E>0 - 2 MARKS Rift Scuttlers or Razorbeaks
+<E>3 - 4 MARKS Krugs, Razorbeaks, Gromp, or Murkwolves
+<E>5 - 7 MARKS Blue Sentinels, Red Bramblebacks, Rift Herald, or Elemental Dragons
+<E>7+ MARKS Baron Nashor or Elder Dragon
+<+S>> Q - Dance of Arrows
+<E>Damage: 60/90/120/150/180 -> 55/75/95/115/135
+<E>New: Bounties increase Dance of Arrows' damage by 5 per stack (uncapped)
+<-S>> E - Mounting Dread
+<E>Slow: 70% at all ranks -> 50% at all ranks
+<E>Damage: 60/90/120/150/180 -> 40/75/110/145/180
+
+<GS>> Context
+<C>Thanks to their range, Kindred's early game damage and powerful slow allow them to trade uncontested against a lot of junglers and laners, putting opponents on the back foot as they take control of the game. Oftentimes, the threat of being kited makes avoiding fighting back the optimal option. These uncontested trades are what make Kindred a dominant force in the early stages, even without bounties.
+
+<C>Speaking of which, let's talk about Mark of the Kindred. Designed to reward the dynamic duo for taking risks and predicting their prey, Kindred's Marks feel more like a ‘cherry on top' instead of a crucial part of their damage. By allowing Kindred more opportunities to mark (while making it more necessary to claim them), we're giving them a clear path to successful scaling that doesn't include ‘viciously murdering every jungler before level 3'.
+
+<BT>> Lucian
+<S>Q and W range down. Q ratio down.
+
+<-S>> Q - Piercing Light
+<E>Range: 1100 -> 900
+<E>Ratio: 0.6/0.75/0.9/1.05/1.2 bonus AD -> 0.6/0.7/0.8/0.9/1.0 bonus AD
+<-S>> W - Ardent Blaze
+<E>Range: 1000 -> 900
+
+<GS>> Context
+<C>Way back in 2014, we set out to make Lucian the skirmishing-est marksman in League. The Purifier excels at short-range fights through combat mobility and spellweaving, chunking enemies with Lightslinger procs as he darts across the battlefield. As an in-your-face marksman, Lucian needs to put himself in harm's way more than his compatriots to succeed, but even that level of risk doesn't justify his current dominance. Lucian's close-quarters identity falls apart when he can rely on mid-range poke for the brunt of his interaction with enemies. We're trimming a bit of safety off Lucian's kit to ensure his success is tied to engaging with - and outmaneuvering - his opponents.
+
+<BT>> Maokai
+<S>Health regen down. Q cooldown up at early ranks.
+
+<-S>> Health regen: 8.678 -> 7
+<-S>> Health growth: 0.85 -> 0.75
+<-S>> Q - Arcane Smash
+<E>Cooldown: 6s at all ranks -> 8/7.5/7/6.6/6s
+
+<GS>> Context
+<C>Despite a brief absence, recent changes to Maokai see the Twisted Treant back on top of the teamfight-tank totem pole. Such is the struggle with Maokai - we're cool with him being viable (as a fair example of what tanks should look like), but his combination of incredible teamfighting and powerful laning phase puts him ahead of the crowd consistently. We're aiming to pull power from Maokai's early game and crack open the window you have to bully him before he grows big and strong.
+
+<BT>> Nidalee
+<S>Prowl activation range against champions reduced. Pounce cooldown resets reduced.
+
+<-S>> Passive - Prowl
+<E>Movement speed bonus range: Movement speed bonus increased when moving toward visible enemy champions within 5500 range -> 1400 range
+<+S>> W - Pounce
+<E>Reset on kill: 70% of the cooldown -> 40/50/60/70%
+
+<GS>> Context
+<C>Even with multiple rounds of changes this season, Nidalee's remained dominant in the jungle thanks to her ability to snowball even the smallest of leads. Granted, strength when ahead isn't a problem in and of itself - in fact, that's how the game generally works. Nidalee's problem is that her insane clear speed guarantees her an early lead, meaning opponents never have the chance to fight her on equal footing. As a result, the jungle landscape has been warped to only support champions with similar clear speeds, lest Nidalee pop out of a brush and murder her under-leveled opposition. We're tempering Nidalee's early clears to give other junglers room to breathe.
+
+<C>On a closing tangent, let's clarify the Prowl range adjustment. 5500 falls solidly in the “semi-global” range (think Twisted Fate or Pantheon), meaning Prowl was often activated by enemies Nidalee wasn't even thinking about. By contrast, 1400 matches Nidalee's natural vision range, connecting Prowl's uptime to moments when Nidalee is actively hunting enemy champions. Remember, Nidalee's bonus movement speed in brush is untouched - this is purely about running toward enemies!
+
+<BT>> Ryze
+<S>Q damage down. R cooldown up.
+
+<-S>> Q - Overload
+<E>Damage: 60/95/130/165/200 -> 60/90/120/150/180
+<-S>> R - Desperate Power
+<E>Cooldown: 50/40/30s -> 50s at all ranks
+
+<GS>> Context
+<C>In the hands of an experienced player, Ryze is a cut above the competition. The ability to rapid-fire massive damage, CC or waveclear - all with very low downtime - makes it easy to see why Ryze is the go-to for some of the best players in the world. We're limiting Ryze's effectiveness when cycling through the entire spellbook to give opponents moments of downtime to capitalize on. Unless they're rooted (and then rooted again, and again, etc).
+
+<BT>> Swain
+<S>Q damage down. R healing down.
+
+<-S>> Q - Decrepify
+<E>Damage: 30/50/70/90/110 -> 30/47.5/65/82.5/100
+<-S>> R - Ravenous Flock
+<E>Base heal against champion: 30/45/60 -> 20/30/40
+
+<GS>> Context
+<C>Swain's incredible strength this patch is a matter of degrees. Okay, a lot of degrees. While we're happy with the improvements made to Ravenous Flock's functionality in 6.10 (that is, MR not reducing Swain's healing), it's opened up a build that allows him to leverage multiple pure-defense items while still dealing (sigh) tons of damage. Given our history with tank Ekko, we're taking steps to prevent tank Swain from becoming a thing. Compared to other mages, Swain is built to take a punch - but engaging him shouldn't feel like a lost cause. Reinforcing offense as his primary scalar should set Swain in the right direction.
+
+<BT>> Taliyah
+<S>Health increased. Q deals extra damage to minions.
+
+<+S>> Base health: 500 -> 520
+<+S>> Q - Threaded Volley
+<E>New Now deals 50% extra damage to minions
+
+<GS>> Context
+<C>Taliyah released on the weaker side of the spectrum and still continues to struggle in lane, despite our hotfix in 6.10. Much of this is due to Threaded Volley's limited uses early on (further constrained by worked ground), but she's also just a little below the curve in terms of defenses. Amping Taliyah's ability to leverage Threaded Volley to control the lane as well as boosting her survival should put her on even ground with opponents instead of being an easy all-in target.
+
+<BT>> Vel'Koz
+<S>Q slow up. R damage partially shifted back into Organic Deconstruction stacking.
+
+<+S>> Q - Plasma Fission
+<E>Slow duration: 1/1.25/1.5/1.75/2s -> 1/1.4/1.8/2.2/2.6s
+<-S>> R - Life Form Disintegration Ray
+<E>Base damage: 500/725/950 -> 450/625/800
+<E>New: Enemies that stay in the beam accumulate 1 stack of Organic Deconstruction every 0.7 seconds (up to 3 stacks)
+
+<GS>> Context
+<C>Vel'Koz's update has left Life Form Disintegration Ray in a confused state. We envisioned a world where Vel'Koz melts the enemy frontline with a look, but his ult lacks the throughput to reliably vaporize health-stacking tanks. Meanwhile, focusing the backline feels just as underwhelming since squishies rarely take Researched damage. These problems stand at odds with each other: we can't completely fix Vel'Koz's focus-fire and team-wide ult cases without blatantly overtuning him.
+
+<C>In this case, player feedback has clearly indicated which problem is more frustrating. The fantasy of a giant face laser is to melt everything in its path, but Life Form Disintegration Ray's update overly constrained it to one primary target. We're restoring some of Vel'Koz's effectiveness against multiple enemies to give Life Form Disintegration Ray more ways to feel successful.
+
+<BT>> Zed
+<S>Q damage and ratio down, but has less fall-off on multi-hits.
+
+<-S>> Q - Razor Shuriken
+<E>Damage: 75/115/155/195/235 -> 70/105/140/175/210
+<E>Ration: 1.0 bonus AD -> 0.9 bonus AD
+<E>Damage per additional shuriken: 50% -> 75%
+
+<GS>> Context
+<C>Melee assassins expect to excel at diving onto their opponents and bursting them down. Zed's sustained ranged poke violates expectations by exerting a pretty significant amount of pressure on his lanes. The catch-22 Zed creates - get poked out at range or bursted in melee - leaves other midlaners without satisfying options for counterplay. We're toning back on Zed's damage (both from poke and all-ins alike) unless the Master of Shadows can line up multiple shurikens on his foes.
+
+<YN>> Items
+<BT>> Boots of Swiftness
+<S>Movement speed down.
+
+<-S>> Movement speed: 60 -> 55
+
+<GS>> Context
+<C>Boots of Mobility were some tough shoes to fill as the default 'go fast' boots in the League, but Boots of Swiftness have definitely stepped up to the challenge. While Boots of Mobility served the very specific goal of facilitating roaming (movement speed out of combat), Boots of Swiftness give very general power (movement speed all the time). Since other options can't beat ‘em, most champions are forced to join ‘em by opting into the turbo life. Reducing the speed they give should help the other options find their footing.
+
+<BT>> Berserker's Greaves
+<S>Attack speed up.
+
+<+S>> Attack speed: 30% -> 35%
+
+<GS>> Context
+<C>Berserker's Greaves are among the least purchased boots, even on marksmen where you'd expect them to be a staple. Right now they're just losing out in efficiency to far too many of their competitors, so we're tweaking it upwards.
+
+<BT>> Ninja Tabi
+<S>Passive reduction up.
+
+<+S>> Basic attack reduction: 10% -> 12%
+
+<GS>> Context
+<C>Right now there's only one thing Ninja Tabi have in common with actual Ninja: you can't see them anywhere. While Mercury Treads are purchased situationally against heavy magic damage, Ninja Tabi aren't hitting the mark against physical damage right now, so we're giving them a bump.
+
+<BT>> Trinity Force
+<S>Builds out of Stinger instead of Zeal. Critical strike chance removed, cooldown reduction and attack speed increased. Cost down, combine cost is now a bunch of threes.
+
+<+S>> Build path: Sheen + Phage + Zeal + 200 gold -> Sheen + Phage + Stinger + 333 gold
+<+S>> Total cost: 3800 gold -> 3733 gold
+<+S>> Attack speed: 15% -> 40%
+<+S>> Cooldown reduction: 10% -> 20%
+<-S>> Remvode: Critical chance 20% -> 0%
+
+<GS>> Context
+<C>As Sheen's offensive AD upgrade, Trinity Force promises mid-game dominance through double the Spellblade damage of its component item. By contrast, Iceborn Gauntlet is the upgrade for champions that can take advantage of its utility. That separation's been a bit fuzzy this season, with many toplaners picking Iceborn to straight-up outduel their opponent. While this was partially due to Iceborn being overtuned, we also realized Trinity Force was suffering from a lack of focus.
+
+<C>The best Trinity Force users reliably proc Spellblade on cooldown - Jax, Irelia, and friends wield equal blends of abilities and basic attacks to deal damage. That combat pattern is key: it means Trinity Force users don't rely on hyperscaling basic attacks to fight enemy champions. With that in mind, Zeal is a marksman-shaped peg jammed into a fighter-shaped hole. It fits... just not perfectly. Stinger is better suited for the job: attacking faster and casting spells faster squares with the goal of maximizing Spellblade uptime. With new focus, Trinity Force is better than ever at fueling the mid game pain train for champs that want to play the Spellblade game.
+
+<BT>> Stinger
+<S>Cost and attack speed down.
+
+<+S>> Cost: 1200 gold -> 1100 gold
+<-S>> Attack speed: 50% -> 35%
+
+<GS>> Context
+<C>We took a look at Stinger while making the Trinity Force changes above. Its cost efficiency was higher than average for a component item, so we're bringing it in line with other items around its price point.
+
+<BT>> Nashor's Tooth
+<-S>> Cost 900 gold -> 1000 gold
+
+<BT>> Dervish Blade
+<-S>> Cost: 200 gold -> 300 gold
+
+<BT>> Wit's End
+<S>Cost down.
+
+<+S>> Build path: Recurve Bow + Null-Magic Mantle + Dagger + 1050 gold -> Recurve Bow + Negatron Cloak + Dagger + 480 gold
+<+S>> Cost: 2800 gold -> 2500 gold
+
+<GS>> Context
+<C>Wit's End should feel like a viable magic resist option for on-hit users, but just doesn't cut it in terms of efficiency. Mixing up a new build path (and cutting costs) should make it feel like a real contender for your inventory, especially if you plan on attacking a lot and taking magic damage.
+
+<YN>> Bugfixes
+<YS>- Resolved an issue preventing some players from receiving mastery tokens
+<YS>- The start-of-game Fortification buff on outer turrets now properly reduces magic damage
+<YS>- The cooldown of Thunderlord's Decree no longer resets on certain revive effects (ex. Karthus's Passive - Death Defied, Yorick's R - Omen of Death)
+<YS>- Cassiopeia's Q - Noxious Blast range indicator has been extended to match its cast range
+<YS>- Champions standing in Cassiopeia's W - Miasma can no longer dash using the second cast of ARAM's Mark / Dash
+<YS>- Fixed a bug where Darius's E - Apprehend wasn't properly pulling in enemies that were mid-dash during its cast
+<YS>- Fixed a bug where Draven couldn't recast R - Whirling Death while snared
+<YS>- Fixed a bug where Wolf would occasionally stop damaging targets that entered his range during Kindred's W - Wolf's Frenzy
+<YS>- Malzahar's voidlings no longer get confused if a target afflicted by E - Malefic Visions enters brush
+<YS>- Rumble's Q - Flamespitter now turns to face his target on basic attack command, rather than basic attack execution (think Corki's E - Gatling Gun)
+<YS>- Trundle's Passive - King's Tribute no longer procs when Zed's R - Death Mark shadow expires
+<YS>- Fixed a bug where Ziggs decided to take a short walk forward before casting R - Mega Inferno Bomb at max range
+<YS>- Restored voiceover lines for Vladimir's Q - Transfusion and E - Tides of Blood
+<YS>- Viktor's R - Chaos Storm pulses are now accompanied by sound effects

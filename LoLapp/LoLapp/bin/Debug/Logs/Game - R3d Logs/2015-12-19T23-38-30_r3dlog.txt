@@ -1,0 +1,33 @@
+000000.000|       0.0000kb|      0.0000kb added| ALWAYS| Logging started at 2015-12-19T23:38:30.746
+000000.003|       0.0000kb|      0.0000kb added|   OKAY| Riot::RADS::Reader::RadsMain::Initialize: RADS library initializing with specified working directory "D:\Info_project\C#_project\Apps\LoLapp\LoLapp\bin\Debug".
+000000.003|       0.0000kb|      0.0000kb added|   OKAY| Riot::RADS::Reader::RuntimeEnvironment::Create: Creating RADS runtime environment: RADS root directory = "D:/Info_project/C#_project/Apps/LoLapp/LoLapp/bin/Debug"
+000000.003|       0.0000kb|      0.0000kb added|   WARN| Riot::RADS::Reader::RuntimeEnvironment::GetProjectTypeNameAndVersion: Did not find keywords "projects" or "solutions" in path D:/Info_project/C#_project/Apps/LoLapp/LoLapp/bin/Debug
+000000.003|       0.0000kb|      0.0000kb added|  ERROR| Riot::RADS::Reader::RuntimeEnvironment::Create: RADS runtime environment creation failed because it was unable to get the project information.
+000000.003|       0.0000kb|      0.0000kb added|  ERROR| Riot::RADS::Reader::RadsMain::Initialize: RADS library initialization failed to create the runtime environment.
+000000.003|       0.0000kb|      0.0000kb added|  ERROR| Failed to initialize Rads library.
+000000.003|       0.0000kb|      0.0000kb added|   OKAY| Riot::RADS::Reader::SignalSoftRepair: Wrote soft repair file to D:/Info_project/C#_project/Apps/LoLapp/LoLapp/bin/SOFT_REPAIR.
+000000.040|       0.0000kb|      0.0000kb added|   OKAY| Unable to process data overlay file ./ToolsConfig.xml, defaulting to overlay now
+000000.040|       0.0000kb|      0.0000kb added| ALWAYS| Data overlay start folder initialized to DATA, Content/Src
+000000.041|       0.0000kb|      0.0000kb added| ALWAYS| Global logging level set to   WARN
+000000.041|       0.0000kb|      0.0000kb added| ALWAYS| Build Version: Version 5.24.0.249 (Dec  4 2015/12:20:38) [PUBLIC] <Releases/5.24> ChangeList: 1278515
+000000.148|       0.0000kb|      0.0000kb added|   WARN| Couldn't initialize minidump file. _wmkdir returned 13
+000000.151|       0.0000kb|      0.0000kb added|  ERROR| Failed to extract information from command line string for observer/replay mode
+000001.757|       0.0000kb|      0.0000kb added| ALWAYS| OS Version String: 8.1  Home, x64
+000001.757|       0.0000kb|      0.0000kb added| ALWAYS| CPU: GenuineIntel, Intel(R) Core(TM) i7-4810MQ CPU @ 2.80GHz, Intel64 Family 6 Model 60 Stepping 3, 2794 (0 core)
+000001.757|       0.0000kb|      0.0000kb added| ALWAYS| Measured processor speed: 2838
+000001.757|       0.0000kb|      0.0000kb added| ALWAYS| Display info: Intel(R) HD Graphics 4600 1073741824 10.18.14.4264
+000001.757|       0.0000kb|      0.0000kb added| ALWAYS| Physical memory: 8589934592
+000001.757|       0.0000kb|      0.0000kb added| ALWAYS| {"messageType":"hardware_information","message_body":"Hardware Info","operating_system":"8.1  Home, x64","cpu":"GenuineIntel","cpu_processor":"Intel(R) Core(TM) i7-4810MQ CPU @ 2.80GHz","cpu_identifier":"Intel64 Family 6 Model 60 Stepping 3","cpu_topology":4,"gpu":"Intel(R) HD Graphics 4600","video_memory":"1073741824","driver_version":"10.18.14.4264","physical_memory":8589934592,"wine":false}
+000001.757|       0.0000kb|      0.0000kb added| ALWAYS| -----HARDWARE INFORMATION START-----
+000001.757|       0.0000kb|      0.0000kb added| ALWAYS| Operating System: 8.1  Home, x64
+000001.757|       0.0000kb|      0.0000kb added| ALWAYS| GPU Manufacturer: Intel(R) HD Graphics 4600
+000001.757|       0.0000kb|      0.0000kb added| ALWAYS| GPU Memory: 1073741824
+000001.757|       0.0000kb|      0.0000kb added| ALWAYS| GPU Driver Version: 10.18.14.4264
+000001.757|       0.0000kb|      0.0000kb added| ALWAYS| CPU Brand: GenuineIntel
+000001.757|       0.0000kb|      0.0000kb added| ALWAYS| CPU Processor Name: Intel(R) Core(TM) i7-4810MQ CPU @ 2.80GHz
+000001.757|       0.0000kb|      0.0000kb added| ALWAYS| CPU Identifier: Intel64 Family 6 Model 60 Stepping 3
+000001.757|       0.0000kb|      0.0000kb added| ALWAYS| CPU Speed: 2794
+000001.757|       0.0000kb|      0.0000kb added| ALWAYS| CPU Topology: 4 Core
+000001.757|       0.0000kb|      0.0000kb added| ALWAYS| Physical memory: 8589934592
+000001.757|       0.0000kb|      0.0000kb added| ALWAYS| -----HARDWARE INFORMATION END-----
+000001.793|       0.0000kb|      0.0000kb added|  ERROR| Crash Occurred

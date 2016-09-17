@@ -1,0 +1,270 @@
+﻿88F5D293
+<YN>> Champions
+
+<BT>> Alistar
+<S>E's healing on allies down.
+
+<-S>> E - Triumphant Roar
+<E>Heal for allies: 50% -> 33%
+
+<GS>> Context
+<C>Oh, Alistar. Your amazing peel and engage are rivaled only by your sustain, yet one of these things does not belong. While it's important to Alistar to be able to regenerate health between trades (he puts the Ali in All in), his high mana regeneration paired with the effectiveness of his Headbutt/Pulverize combo make him the optimal choice in pro play, no matter what your team needs. We're focusing these changes around a single decision point - which does he value more? Engage potential, or sustain? Constraining the efficiency at which Alistar can heal his allies means that his lane buddies will have to carefully consider what the situation calls for, or risk not having enough health to engage when he does.
+
+<BT>> Azir
+<S>Soldiers no longer apply Fervor of Battle.
+
+<-S>> Change: Sand Soldiers no longer apply Fervor of Battle (removed in 6.5)
+<-S>> Bug fix: Fixed a bug where Azir would automatically start moving after issuing a Sand Soldier attack command
+
+<GS>> Context
+<C>So this interaction was removed in 6.5, but slipped our patch notes. While Azir's soldiers look like they're basic attacking, they're not applying on-hits. Sand Soldier attacks are treated as spells, and as such, apply spell effects like Liandry's Torment or Rylai's Crystal Scepter. For people that knew how this interaction worked (for as long as it did), Azir could actually be dealing more physical damage than magic. That's not a particular can of ascended worms we're willing to balance around - on top of the fact that this shouldn't work anyways - so it's gone.
+
+<BT>> Cho'Gath
+<S>R stacks provide more health.
+
+<+S>> R - Feast
+<+E>Bonus health per stack: 90/120/150 -> 100/140/180
+
+<GS>> Context
+<C>Cho'Gath isn't far below the bar, but life's still hard for a void dinosaur-terror with lobster claws. Cho'Gath has the power to wreck an entire team given his powerful CC� or die horribly, beginning an almost never-ending game of catchup to restore the health stacks he so desperately relies on to function. We're easing up on the build-up (especially late-game) for a voidbeast fallen on hard times.
+
+<BT>> Ekko
+<S>Passive speed duration up. E cooldown reduced.
+
+<+S>> Passive - Z-Drive Resonance
+<+E>Movement speed: 40/50/60/80% (at levels 1-16) -> 50/60/70/80% (at levels 1-16)
+<+S>> E - Phase Dive
+<+E>Cooldown: 13/11.5/10/8.5/7s-> 11/10/9/8/7s
+
+<GS>> Context
+<C>Ekko specializes in creating high moments through big engages and risky dives, but his time has passed - falling short compared to his counterparts in almost every lane and role. Strengthening Ekko's 'hit-and-run' gameplay gives him more power to follow through on the kill pressure he creates during early skirmishes.
+
+<BT>> Fiora
+<S>Passive deals less damage, but scales higher early. E slow and range down.
+
+<-S>> Passive - Duelist's Dance
+<-E>Base true damage: 3% of the target's maximum health -> 2% of the target's maximum health
+<-E>Ratio: 2.8 - 4.5% per 100 bonus AD -> 4.5% per 100 bonus AD
+<-S>> E - Bladework
+<-E>Slow: 40/45/50/55/60% -> 30%
+<-E>Bonus range: 50 -> 25
+
+<GS>> Context
+<C>Stop me if you've heard this one before: a high-damage carry champion builds primarily tank items and still manages to deal enough damage to duel everyone while being impossible to take down. It's a problem as old as League itself, but these days Fiora's become the posterchild for game health issues when Tanks and Carries cross the streams. It's a standard problem, but also one that's often misunderstood - it's not the damage that Fiora (or any carry) does, it's the whole 'not making a tradeoff to get it' that's an issue.
+
+<C>Mixing up the bases and scaling goes a long way to making sure the die-hard full damage Fioras out there still get to carve up opponents with skilled play. That said, this fencer's still got problems even before we start talking items, which is what the other half of this changelist is addressing. Right now, Fiora's wealth of tools to activate Duelist's Dance are so slanted in her favor that it doesn't feel graceful or elegant (or possible) to deny her the satisfaction of striking your weak spot. We're cleaning up some of her advantages there to make Fiora's 1v1's more compelling than 'instantly proc 3 vitals - now see if you can deny me the last one.'
+
+<BT>> Janna
+<S>> E bonus damage and R disable time down.
+
+<-S>> E - Eye Of The Storm
+<-E>AD on shield: 14/23/32/41/50 -> 10/17.5/25/32.5/40
+<-S>> R - Monsoon
+<-E>Disable duration: 0.75s -> 0.5s
+
+<GS>> Context
+<C>From a holistic, top-level view of League, Janna's role as a protector fits rather well into the eternal rock-paper-scissors of 'tank-carries-assassins'. The issue (as is always the case whenever Janna's too strong) is how well she can protect. At present, Janna's strengths are shutting down not just divers and assassins, but almost any aggressor there is. We're pulling back on some of the extraneous power she provides when enabling counter-engages while ensuring her 'keepaway' style of disengage is intact.
+
+<BT>> Jayce
+<S>Hammer Q's cost reduced. Base damage and ratio increased.
+
+<+S>> Q - To the Skies!
+<+E>Cost: 40/45/50/55/60 mana -> 40 mana at all ranks
+<+E>Base damage: 30/70/110/150/190/230 -> 40/80/120/160/200/240
+<+E>Ratio: 1.0 bonus AD -> 1.2 bonus AD
+
+<GS>> Context
+<C>Another niche pick, Jayce has been on the cusp of widespread play for a while now. We're not touching his poke where he's already a strong contender, but tuning up Jayce's ability to follow-up that poke (or create lane presence) with a hammer.
+
+<BT>> Kalista
+<S>Less attack speed unless near Kalista's Oathsworn. W damage and sentinel laps down. R's pull range down.
+
+<-S>> Base AS 0.694 -> 0.644
+<-S>> AS growth: 2.8% -> 2.5%
+<+S>> W - Sentinel
+<+E>Sentinel laps: 7 -> 3
+<+E>Passive damage: 10/12.5/15/17.5/20% of the target's maximum health -> 5/7.5/10/12.5/15% of the target's maximum health
+<+E>New: Now passively grants Kalista 9-27% bonus AS (based on her level) whenever she's near her Oathsworn
+<-S>> R - Fate's Call
+<-E>Cast range from oathsworn: 1400 -> 1100
+
+<GS>> Context
+<C>We've talked in previous patches about Kalista's competing identities, and with her dominating professional and normal play alike, we're going to revisit that concept. In the past, we've struggled to reconcile Kalista's teammate-focused oathsworn gameplay with her independent 'hop around and spear everyone to death' carry fantasy. Having multiple strengths is fine, but in the case of Kalista - 'I'm incredible at 2v2' (thanks to Fate's Call) and 'I'm incredible 1v1' run counter to one another, making it hard for teams to know how or even when to fight back.
+
+<C>These changes are all about letting Kalista have the best of both worlds - but only if she's near her Oathsworn. Pair the greater emphasis on their bond with a general reduction of power on some more extraneous mechanics means Kalista and her ally will need to be more in sync than ever to achieve the same dominance.
+
+<BT>> Karma
+<S>Mantra shield's base and ratio increased.
+
+<+S>> E - Defiance (Mantra)
+<+E>Shield amount: 30/90/150/210 -> 30/100/170/240
+<+E>Ratio: 0.3 AP -> 0.6 AP
+
+<GS>> Context
+<C>In an ecosystem where scaling supports are all the rage, Karma's relative underperformance is a worrying trend. While Lulu and Lux transition strong gold leads to significant team utility, Karma's unable to generate similar value, even when given her whole team's resources. Her 'strong early, weak late' curve indicates Karma's supportive scaling isn't where it needs to be to merit consideration, so we're adding some Sae to really make her Eleisa Tera Vi (yes, that's a mantra joke).
+
+<BT>> Kha'Zix
+<S>Q and W cooldowns reduced.
+
+<+S>> Q - Taste Their Fear
+<+E>Cooldown: 3.5s-> 3s
+<+S>> W - Void Spike
+<+E>Cooldown: 10s-> 9s
+
+<GS>> Context
+<C>Kha'Zix takes more risk than reward these days, despite appearing on the Patch Notes a few times recently. Kay-Z's a bit of a balancing tightrope - Isolation makes him feast or famine by nature (either dominating a game or sputtering out), but he's far enough below the line that we're okay giving him some love. We're being careful not to flatly increase his burst, but giving him better dueling in extended fights as well as a booster shot to his jungle clear.
+
+<BT>> Lulu
+<S>W's ability power ratio and ally duration decreased.
+
+<-S>> W - Whimsy
+<-E>Ration: 10% per 100 AP -> 5% per 100 AP
+<-E>Movement speed duration: 3/3.5/4/4.5/5s-> 3/3.25/3.5/3.75/4s
+
+<GS>> Context
+<C>In many ways, Lulu single-handedly popularized the term 'flex-pick'. A powerful champion since launch, Lulu's been a contested champion in professional play across multiple seasons. Her flexibility combined with the raw utility she can pump into her team's hyper-carry are unique and interesting strategic niches in their own right, but they also combine to make her one of the most comprehensive support generalists of the group. Generally speaking, we're okay with Lulu occupying this spot, we just want to make her slightly less overwhelmingly viable than �always.� .
+
+<BT>> Lux
+<S>W gives more benefit if you've been double-hit, but less shield on single-hits. Missile now slower on the way out, faster back in.
+
+<-S>> W - Prismatic Barrier
+<-E>New: Refreshes on second hit -> Stacks and refreshes on second hit
+<-E>New: Missile speed is slower on the way out, but accelerates back to Lux faster after reaching max range
+<-E>Shield amount: 80/105/130/155/180 -> 50/65/80/95/110
+<-E>Ratio: 0.35 AP -> 0.2 AP
+
+<GS>> Context
+<C>The mechanics of this can be a bit complicated, so let's break down what's happening. Currently, Lux gives a shield for her allies, and then immediately rewrites that shield on return. This means that in a vast majority of cases, you're only giving one shield - since the first one you gave was refreshed almost immediately. With this change, not only is it easier to actually hit your allies, but they get more benefit when you do! That's the good news.
+
+<C>So it's all pretty good for Lux. Unless you're the Lux, in which case you now have a worse shield that takes longer to get to you (that's the bad news). What gives? Well, Lux's safety, damage, utility and range are all top-notch. Readers of the patch notes may look at that list and say 'Hey, that's a lot of strengths'. And you'd be right - rebalancing the shield is our chance to give Lux an actual weakness to all-ins and assassins without removing the reasons to pick her entirely. Now Lux will just have to play a lot more carefully and patiently around those incredible ranges she's packing if she expects to get the same results as before.
+
+<BT>> Maokai
+<S>Base Magic Resist up, and Magic Resist scaling introduced. Sapling duration up.
+
+<+S>> Base MR 30 -> 32
+<+S>> MR growth: 0 -> 1.25
+<+S>> E - Sapling Toss
+<+E>Salping duration: 35s -> 40/45/50/55/60s
+<+E>New: Saplings no longer stack on top of each other. Instead, they shuffle a short distance away from one another.
+
+<GS>> Context
+<C>Maokai's seen a heavy drop in play since his dominance throughout 2015, surprisingly absent in an environment filled with his other tanky brethren. We're going easy (as Maokai has a tendency to overcentralize the playing field when too strong), instead focusing on the key areas where he brings utility to his team. It's also worth noting that Maokai is the last tank left in the game without scaling Magic Resist. It's a dangerous proposition, but one that we're embracing as we adopt a 'wait-and-see' approach in the event that this flings Maokai too far from the tree.
+
+<BT>> Master Yi
+<S>Base damage up, but ratio moved entirely to bonus attack damage.
+
+<+S>> E - Wuju Style
+<+E>Base damage: 10/15/20/25/30 -> 12/19/26/33/40
+<+E>Ration: 0.1/0.125/0.15/0.175/0.2 total AD -> 0.25 bonus AD at all ranks
+
+<GS>> Context
+<C>Usually, when a fed Master Yi dominates an entire team it's a rare occurrence that comes from careful risk management on a really fragile champion. These days, however, Yeezy's build of choice is almost fully defensive, abusing on-hit synergies to get most of the damage with far less danger to himself. We're changing up the way Yi scales so that he can still reasonably achieve the same damage thresholds, but he's gotta give up some safety and reliability to get it.
+
+<BT>> Nidalee
+<S>Hunting monsters no longer roots them. W's damage increased, but basic attack reset removed.
+
+<-S>> Passive - Prowl
+<-E>Removed: Hunting monsters no longer roots them
+<+S>> W - Pounce
+<+E>Removed: No longer resets Nidalee's basic attack
+<+E>Base damage: 50/100/150/200 -> 65/110/155/200
+
+<GS>> Context
+<C>Speaking of champions with lots of strengths and few weaknesses, we come to Nidalee. Nid's potency in professional leagues around the world is warping diversity to the point that she's a must-pick or must-ban in most situations, thanks to her incredible versatility and objective control (what scuttle crab?). We're lowering Nidalee's ability to run circles around the competition with a lead in pro play without significantly impacting her performance in normal play.
+
+<BT>> Orianna
+<S>Q mana cost down at early ranks.
+
+<+S>> Q - Command: Attack
+<+E>Cost: 50 mana at all ranks -> 30/35/40/45/50 mana
+<+E>Bug fix: Fixed a bug where Command: Attack had a smaller AP ratio when moved very short distances.
+
+<GS>> Context
+<C>Orianna's often heralded as one of the most balanced champions in League, but struggles in average play despite this. We're not looking to increase Ori's power for pro players significantly (like Faker needs the help), but easing up on the cost of her core ability positioning ability (say that three times fast) should go a long way.
+
+<BT>> Quinn
+<S>Q duration reduced and cooldown increased.
+
+<-S>> Q - Blinding Assault
+<-E>Cooldown: 11/10/9/8/7s -> 11/10.5/10/9.5/9s
+<-E>Duration: 2s -> 1.5s
+
+<GS>> Context
+<C>For anyone that's laned against Quinn, this change is a bit of a no-brainer. While giving her the ability to shut down long-ranged champions (like Xerath or Jhin) is neat, in reality Quinn just finds the weakest melee champion on the enemy team and controls their ability to contribute. Quinn's identity is all about hyper-roaming and the flexible pick/pushing potential that comes with that. Quinn's identity is not making melee champions obsolete - so we're adjusting.
+
+<BT>> Shyvana
+<S>Q's scaling reduced at early levels.
+
+<-S>> Q - Twin Bite
+<-E>Ration: 180/185/190/195/200% total AD -> 140/155/170/185/200% total AD
+
+<GS>> Context
+<C>Shyvana's too strong. So what are we going to do about it?
+
+<C>While the below changes might not look like much for anyone that's been mauled by the half-dragon lately, Shyvana is a champion that we define as high-variance. That is to say 'She's okay to rampage through a neighboring lane (or village) because Shyvana can't do that every game'. This isn't just about risk vs reward or winrates - variance is the other side of the coin of reliability, describing a champion's spread of being able to achieve certain outputs over time. To break that down, let's use examples. Amumu can sometimes land 5-man ultimates - or he can whiff entirely - creating a high variance champion. By contrast, let's look at Kayle's Righteous Fury. No matter what you do, it's always going to give you a buff to your range. Does what it says. There's still some variance at play (was this the right time to use it?), but it's pretty low-variance overall.
+
+<C>So what does this have to do with Shyvana? Well, ability usage (input) isn't the only thing that can be high-variance. Champions that are more linear have variance in their output instead. For every game where Volibear was allowed to speed racer his way to the backline and flip tables, he's also had games where he's been kited to the moon and denied every opportunity. Shyvana's variance comes from 'was she starved on gold or did she literally eat your entire jungle?'
+
+<C>For those of you who have fought against Shyvana recently, the answer is almost always 'she literally ate my entire jungle.' (And your bottom laners. Sorry you had to find out this way.)
+
+<C>The below changes (combined with Titanic Hydra's changes further down) represent our viewpoint that to attack Shyvana's power level, we have to affect that variance. Lowering her damage in the early stages, especially when dueling champions, should see a stunt in that growth from 'always on' to 'sometimes on' as her opponents seek to close the gaps in her flame horizon.
+
+<YN>> Items
+
+<BT>> Enchantment: Runic Echoes
+<S>Less damage on proc.
+
+<-S>- Base damage: 80 -> 60
+
+<GS>> Context
+<C>Runic Echoes is supposed to realize the fantasy of having a scaling AP champion from the jungle, but a disproportionate amount of buyers transition into heavy tank items after the purchase. Echoes into defense items isn't a build we're opposed to per se, but the current tuning is more beneficial for tanky champs that can proc it multiple times in a fight.. Mages still have a scaling 'hit-and-run' jungle item, but when Nautilus, Amumu, Maokai (and even� Hecarim?!) are buying this to the exclusion of other enchantments, you know there's a problem.
+
+<BT>> Tiamat
+<S>Recipe changed. Attack damage lowered, but now has passive cleave again.
+
+<+S>- Recipe: Pickaxe + Rejuvenation Bead + 175 gold -> Long Sword + Long Sword + Rejuvenation Bead + 350 gold
+<-S>- AD: 30 -> 20
+<+S>- New: Now passively cleaves nearby enemies for 20-60% total AD (based on distance) on basic attack
+
+<GS>> Context
+<C>Back in 5.22, the thinking was that by making Tiamat a cheaper item (while still building out of the amazing Pickaxe), we could see it bought for its laning benefits rather than being the item that you power-spiked off of. What we saw was actually the opposite - many laners and junglers (Kha'Zix, Jarvan, Renekton) alike struggled with the pushing or clearing capabilities of the old Tiamat. Now that we've lived in a world without Cleave, we're trading stat-efficiency to bring it back to the people who need it most.
+
+<BT>> Ravenous Hydra
+<S>Build path is less ugly.
+
+<+S>- Recipe: Tiamat + Vampiric Scepter + Long Sword + 1050 gold -> Tiamat + Vampiric Scepter + Pickaxe + 525 gold
+
+<GS>> Context
+<C>With the lower attack damage on Tiamat, we realized we could make the build smoother by subbing out the Long Sword for a Pickaxe.
+
+<BT>> Titanic Hydra
+<S>Attack damage down.
+
+<-S>- AD: 50 -> 35
+
+<GS>> Context
+<C>If you're someone that plans on basic attacking in League of Legends, Titanic Hydra has a lot of upside. Health scaling on-hit damage, waveclear and a basic attack reset? (Shen nods silently in approval) It also has a lot of attack damage for such a bulky item, making it the better purchase for champions looking to burst you down than its ravenous counterpart. Tuning down the stats to be less appealing as a 'generalist damage item' means we can retain Titanic's unique effects for the tanks that rely on it to become relevant threats.
+
+<BT>> Zz'rot Portal
+<S>Less armor and magic resist. Portals give more gold to enemies and now have ward health.
+
+<-S>- Armor: 60 -> 55
+<-S>- MR 60 -> 55
+<-S>- Void gate health: 300-1200 -> 5
+<-S>- Gold on death: 25 gold -> 50 gold
+<-S>- Removed: Voidspawn no longer consume Spoils of War (Relic Shield line)
+<-S>- New: Basic attacks deal 1 damage to the Void Gate
+<+S>- New: Void Gate's health will regenerate after being out of combat for 5 seconds
+<+S>- New Now has a distinctive minimap icon
+
+<GS>> Context
+<C>Ah, Zz'Rot. While always seen a silly niche item, you eventually fought your way into our inventories. And then our lanes. And then all of our lanes, as it turns out. Zz'Rot's intended to fill a strategic role, allowing teams to reactively opt-in to pushing when the situation calls for it (or proactively layer on an already push-heavy comp). Lately though it's all been 'stats first, strategy second' for Zz'Rot buyers, warping regular and pro play alike. We're focusing the item less on stat-lines and more on your ability to place and protect your portals.
+
+<YN>> Bugfixes
+
+<YS>- Ziggs has taken over the crash reporting tool
+<YS>- Chat rooms and private messages no longer randomly rearrange themselves upon closing a window
+<YS>- Rift Herald now properly grants 2 Enchantment: Devourer stacks on assist
+<YS>- Fixed a bug where selling or undoing a Tier 2 jungle item purchase would cap Smite at 1 charge until re-obtaining a Tier 2 jungle item
+<YS>- Life steal and spell vamp now properly affect the bonus damage Rift Scuttler takes after being affected by hard crowd control
+<YS>- The active effects of Quicksilver Sash and Mercurial Scimitar no longer purge the cooldown of Stormraider's Surge

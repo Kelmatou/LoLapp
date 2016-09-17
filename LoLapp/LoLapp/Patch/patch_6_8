@@ -1,0 +1,175 @@
+C7E9BC1C
+<YN>> Champions
+<BT>> Ekko
+<S>W and E base damage down, but AP scaling increased.
+
+<+S>> W - Parallel Convergence
+<E>Passive on-hit damage: 5% of the target's missing health -> 3% of the target's missing health
+<E>Passive on-hit ration: 1% per 50 AP -> 1% per 33 AP
+<E>New: Now deals a minimum of 15 damage to minions and monsters
+<+S>> E - Phase Dive
+<E>Base damage: 50/80/110/140/170 -> 40/65/90/115/140
+<E>Ratio: 0.2 AP -> 0.4 AP
+
+<GS>> Context
+<C>Ekko's rampage through toplane may be a problem of the present, but this isn't the first time this has happened. To recap our feelings about Tank Ekko (from way back in 5.15) - it's about tradeoffs. AP Ekko earns his game-ending skirmish potential by putting himself at constant risk: Chronobreak and Parallel Convergence are unwieldy when Ekko's fragile enough to die before he can use them optimally. Tank Ekko's survivability makes these tools much more reliable, but due to a combination of low cooldown:s and high base damage, he still brings the beatdown as well. We're fine with Tank Ekko shining in specific situations, but significantly lowering the build's damage output (relative to AP-focused builds) ensures Ekko's risk-reward paradigm is kept in check.
+
+<BT>> Galio
+<S>E costs less and gives more movement speed.
+
+<+S>> E - Righteous Gust
+<E>Cost: 70/75/80/85/90 mana -> 60/65/70/75/80 mana
+<E>Movement speed: 20/28/36/44/52% -> 30/35/40/45/50%
+
+<GS>> Context
+<C>Galio presents a powerful option for those who like to make a big impact in close quarters, but often runs out of steam before teams start grouping up. We're tossing him a stone to help smooth his laning interactions (especially when pushed into his tower), as well as enable sweet roaming plays if the situation arises.
+
+<BT>> Graves
+<S>Basic attacks deal less damage, but crits are more valuable.
+
+<+S>> Passive - New Destiny
+<E>Ratio on first hit: 0.75 - 1.1 total AD (from levels 1-18) -> 0.7 - 1.0 total AD (from levels 1-18)
+<E>Bullets on crit: 8 -> 6
+<E>New: Each crit bullet deals 140% damage (Infinity Edge increases this to 160%)
+
+<GS>> Context
+<C>Graves doesn't know the first thing about time-travel, but he and Ekko share a lot of similarities this patch - they deal tons of damage, and they're practically unkillable. While Graves isn't building pure defense, his unique interactions with lifesteal and basic-attack scaling let him get away with prioritizing efficient hybrid defensive items (Death's Dance, Maw, Sterak's) to wreck early and wreck late. We're retuning New Destiny's specs so Graves has to make a choice between being critting people's heads off or being the gritty, sustained cleanup crew.
+
+<BT>> Kog'Maw
+<S>Q shred up at early levels. W damage down.
+
+<+S>> Q - Caustic Spittle
+<E>Armor/MR shred: 12/16/20/24/28% -> 20/22/24/26/28%
+<-S>> W - Bio-Arcane Barrage
+<E>Base on-hit damage: 10/15/20/25/30 -> 4/8/12/16/20
+
+<GS>> Context
+<C>When last we joined Kog'Maw on his adventures through patch notes, we spoke a lot about giving hypercarries a more even power curve than just 'great late, awful early'. These changes are furthering that philosophy, letting Kog feel like he gets to have a Q and reining in his insane power spike.
+
+<BT>> Master Yi
+<S>R cooldown: up and duration down, but its reset duration increased.
+
+<-S>> R - Highlander
+<E>Cooldown: 75s -> 85s
+<E>Duration: 10s -> 7s
+<E>Extension on kill or assist: 4s -> 7s
+
+<GS>> Context
+<C>While much of Master Yi's strength comes from his synergy with two powerful items (Guinsoo's Rageblade + Sated Devourer), his lack of downtime has always been a frustration. We're tuning Yeezy's all-in window to reward using Highlander at the right time, rather than �whenever.'
+
+<BT>> Miss Fortune
+<S>W duration and cooldown: up. Love Tap no longer extends W's duration, but now reduces its cooldown.
+
+<+S>> W - Strut
+<E>AS duration: 3s -> 4s
+<E>Cooldown: 8s -> 12s
+<E>Remove: Applying Love Tap no longer extends the duration
+<E>New: now begins on-cast instead of when the buff expires
+<E>New: applying Love Tap reduces its remaining cooldown: by 2s (scales down with cooldown: reduction)
+
+<GS>> Context
+<C>Ever since Miss Fortune's dominating preseason performance, the Bounty Hunter's business seems to be anything but booming. Her contributions to clustered fights are still worth a pretty silver serpent, but MF's ability to compete alongside her marksman siblings outside of that best-case scenario is lacking. Retuning Strut for higher potential uptime should bring Miss Fortune's baseline a little closer to the expectations of her class, without hindering the unique bullet-hell style of teamfighting she's known for.
+
+<BT>> Olaf
+<S>W lifesteal and R's armor and MR increased.
+
+<+S>> W - Vicious Strikes
+<E>Lifesteal: 9/12/15/18/21% -> 14/16/18/20/22%
+<+S>> R - Ragnarok
+<E>Passive Armor/MR: 10/20/30 -> 20/30/40
+
+<GS>> Context
+<C>Olaf's a champion that has all the tools necessary to stick to targets and wreck faces in a big brawl, but there's one problem: he's dying too fast. Berserkers thrive in bloody combat, so we're amping Olaf's durability to tip the scales in his favor when he picks the right moment to go all-out (instead of falling flat).
+
+<BT>> Rumble
+<S>Q deals full damage to minions. R's cooldown: lowered.
+
+<+S>> Q - Flamespitter
+<E>Damage to minions: 50% -> 100%
+<+S>> R - The Equalizer
+<E>Cooldown: 120/110/100s -> 110/100/90s
+
+<GS>> Context
+<C>Once a professional staple, Rumble's struggled to succeed in 2016. This scrappy yordle's game is one of attrition; nickel-and-diming opponents with persistent damage and forcing them out of lane (or Equalizing them for overstaying their welcome). This season's premium sustain options - Corrupting Potion and Grasp of the Undying - has left Rumble lacking the ability to get damage to stick. Rather than commit ourselves to an arms-race of upping his damage to compete with early game sustain (which we're taking a swing at further below), we're opting to instead give Rumble greater flexibility in lane control.
+
+<YN>> Items
+
+<BT>> Iceborn Gauntlet
+<S>Proc damage decreased.
+
+<-S>> Spellblade: 125% base AD -> 100% base AD
+
+<GS>> Context
+<C>Sheen's always offered champions with low cooldown:s and high base damage a cost-efficient damage option (without having to go too far into full-damage builds). From there, the branching paths tell the story of what you want your Sheen to do. Do I want an extra AP Ratio? Lichbane. Do I want to deal tons of damage? Trinity Force. In-fight utility? Iceborn Gauntlet. The latter has done a fantastic job of holding up its utility promise - but the extra damage it provides is allowing beefier builds to squeeze too much effectiveness out of their kits. Given how much cheaper it is to build than the other Sheen upgrades, we're taking a stab at sharpening those identities and making Iceborn markedly weaker than its alternatives at winning duels.
+
+<BT>> Mercurial Scimitar
+<S>Cost and attack damage lowered.
+
+<+S>> Total cost: 3700 gold -> 3600 gold
+<+S>> Combine cost: 625 gold -> 525 gold
+<-S>> AD: 75 -> 65
+
+<GS>> Context
+<C>Mercurial Scimitar is really gold efficient. Reaaaaally gold efficient. That's not a problem by itself, but when tied to an incredibly powerful active in the form of Quicksilver Sash's omni-cleanse, over-efficiency pushes Scimitar over the edge. Mercurial's often purchased for its amazing statline alone, and its active is conveniently countering a lot of champions in the process. Scimitar's still a great choice for a carry under pressure, but shrinking its efficiency means it makes less sense without a clear use for the active.
+
+<BT>> Corrupting Potion
+<S>Gives less health but more mana.
+
+<-S>> Health regeneration: 150 health per charge -> 125 health per charge
+<+S>> Mane regeneration: 50 mana per charge -> 75 mana per charge
+
+<GS>> Context
+<C>Corrupting Potion was our attempt at allowing champions to declare their intent to fight via its burn effect: compared to the Doran's items, Corrupting Potion only gets its full value if you take advantage of its burn by trading aggressively with other champions.
+
+<C>Unfortunately, the high sustain on Corrupting Potion also makes it the go-to item for champions who want to passively sit in lane. While the mana enables champions to trade more often, the health is just delaying recalls to base. We're sharpening the trading aspects of Corrupting Potion while dialing back on the sustain.
+
+<YN>> Masteries
+
+<BT>> Feast
+<S>cooldown increased.
+
+<-S>> cooldown: 25s -> 30s
+
+<GS>> Context
+<C>Feast has become the poster child for conservative gameplay. Access to this sustain has crowded out the riskier mastery options at that level (namely Double-Edged Sword), making it hard for lane bullies to succeed at forcing weaker laners back to the fountain. Limiting Feast to one proc per wave tones down the impact it has on lane while keeping its heal amount satisfying.
+
+<BT>> Secret Stash
+<S>Gives less health but more mana.
+
+<-S>> Instant biscuit health: 20 -> 15
+<+S>> Instant biscuit mana: 10 -> 15
+
+<GS>> Context
+<C>You can probably write this patch note on your own. Using abilities more in lane: good. Sustaining effortlessly through lane: bad. Biscuit is another place to drive that home. Corrupting Biscuit.
+
+<BT>> Grasp of the Undying
+<S>Less health and damage.
+
+<-S>> Health steal: 3% maximum health -> 2.5% maximum health
+
+<GS>> Context
+<C>If you've spent some time in top lane during Season 6, you've seen Grasp of the Undying again, and again, and again (there's an Ekko joke somewhere in here). We have nothing against a tank mastery being strong on tanks, but not only is the level of sustain making tanks immovable in lane, the damage turns them from CC bots to killing machines. Who are still CC bots.
+
+<C>This change probably won't solve Grasp's problems on its own, but we want to at least tone it down while we continue exploring our options.
+
+<YN>> Bugfixes
+<YS>- The burn auras for Enchantment - Cinderhulk and Sunfire Cape no longer stack
+<YS>- Zed no longer gains 20 extra attack damage when activating W - Living Shadow
+<YS>- Karthus's W - Wall of Pain properly grants vision again
+<YS>- Fixed a bug where Karthus's abilities sometimes failed to apply the slow from Rylai's Crystal Scepter during Passive - Death Defied
+<YS>- Ekko's Q - Timewinder on-hit sound effects when returning have been restored
+<YS>- Chilling Smite properly dismounts Quinn during R - Behind Enemy Lines
+<YS>- Fixed a bug where Renekton's W - Ruthless Predator sometimes wasn't applying the proper number of Black Cleaver stacks
+<YS>- Rammus's Q - Powerball self-knockup no longer overrides other knockup/knockback effects (ex. Poppy ult, Alistar Headbutt)
+<YS>- The Bandit mastery no longer grants gold when enemy pets (ex. Tibbers, Elise spiderlings) die
+<YS>- Urgot's R - Hyper-Kinetic Position Reverser no longer completes its swap if Urgot dies mid-channel
+<YS>- Oracle's Extract can now properly be purchased while dead on Howling Abyss
+<YS>- Unmuting the Master Volume slider no longer causes individually muted sounds to play
+<YS>- Custom R - Feast sound effects for both Battlecast and Gentleman Cho'Gath have been restored
+<YS>- Increased the volume of Meowkai's E - Sapling Catling Toss sound effects
+<YS>- Increased the volume on a few of PROJECT: Yi's movement voiceover lines
+<YS>- Restored icy wind audio for Blackfrost Anivia's Passive - Rebirth revive channel
+<YS>- Gravelord Azir no longer sometimes plays Azir's base voiceover lines
+<YS>- Jhin's Q - Dancing Grenade bounces no longer play Karma's Q - Inner Flame audio when both are in the game. Thief.
+<YS>- Arcade Hecarim's E - Devastating Charge rainbow trail and arrow effects have been restored
+<YS>- Pool Party Lulu's W - Polymorph victims now properly identify themselves as Seals in chat, rather than Cupcakes
