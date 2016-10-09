@@ -16,8 +16,8 @@ namespace LoLapp
 {
     public class Program
     {
-        const string version = "VERSION: 1609081338 [PATCH 6.18]";
-        const string patch_compatibility = "6.18";
+        const string version = "VERSION: 1610091537 [PATCH 6.20]";
+        const string patch_compatibility = "6.20";
 
         static void Main(string[] args)
         {
@@ -505,13 +505,9 @@ namespace LoLapp
             cursor_begin = Console.CursorTop + 1;
             Console.Write("\n> Champion name: ");
             if (ChampionName != "")
-            {
                 Console.WriteLine(ChampionName);
-            }
             else
-            {
                 ChampionName = summoner_selection(Data_library.get_champion_list(), false);
-            }
             if (ChampionName != "")
             {
                 Console.SetCursorPosition(0, cursor_begin);
@@ -519,9 +515,7 @@ namespace LoLapp
                 Console.SetCursorPosition(0, cursor_begin);
                 Champion champion = requester.GetChampionInfo(ChampionName);
                 if (champion != null)
-                {
                     champion.display_champion_info();
-                }
             }
             else
             {
@@ -1408,7 +1402,7 @@ namespace LoLapp
             Console.SetCursorPosition(2, 21);
             Console.Write("> LoLapp:");
             Console.SetCursorPosition(5, 22);
-            Console.Write("- If you see any data (except icons for now) is 'Unknown', check for update.");
+            Console.Write("- If you see any data (except icons) is 'Unknown', check for update.");
             Console.SetCursorPosition(5, 23);
             Console.Write("- If an application returns an error message everytime, check for update.");
             Console.SetCursorPosition(5, 24);
@@ -1420,7 +1414,6 @@ namespace LoLapp
 
             while (Console.ReadKey(true).Key != ConsoleKey.Enter)
             {
-
             }
         }
 
@@ -3051,9 +3044,7 @@ namespace LoLapp
             int i = 0;
             string swap = "";
             while (i < allServers.Length && allServers[i] != connectedServer)
-            {
                 i++;
-            }
 
             if (i < allServers.Length)
             {

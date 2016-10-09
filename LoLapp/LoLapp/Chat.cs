@@ -858,13 +858,25 @@ namespace LoLapp
                         if (indexQueueType > 14)
                             gameStatus += " " + getGameTypeFormat(info.Substring(indexQueueType, Data_library.indexOccurence(info, "<", indexQueueType) - indexQueueType)) + " game";
                         if (indexChamp > 9 && info.Substring(indexChamp, Data_library.indexOccurence(info, "<", indexChamp) - indexChamp) != "Random")
-                            gameStatus += " with " + info.Substring(indexChamp, Data_library.indexOccurence(info, "<", indexChamp) - indexChamp);
+                            gameStatus += " with " + getChampionName(info.Substring(indexChamp, Data_library.indexOccurence(info, "<", indexChamp) - indexChamp));
                         return (gameStatus);
                     }
                     return ("Busy");
                 default:
                     return (status);
             }
+        }
+
+        private static string getChampionName(string champion)
+        {
+            string name = "" + champion[0];
+            for (int i = 1; i < champion.Length; i++)
+            {
+                if (champion[i] >= 'A' && champion[i] <= 'Z')
+                    name = name + " ";
+                name = name + champion[i];
+            }
+            return name;
         }
 
         private static string getGameStatusFormat(string gameStatus)
