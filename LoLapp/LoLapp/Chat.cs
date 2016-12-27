@@ -554,7 +554,7 @@ namespace LoLapp
                 Console.SetCursorPosition(0, textFirstLine);
                 text = "/exit";
                 Console.Write("> " + (printTime ? "[" + getTime() + "] " : "") + userName + ": " + text);
-                Data_library.saveFile(appdata_dir + "script", new List<string>() {"10"});
+                Data_library.saveFile(appdata_dir + "script", new List<string>() {"9"});
             }
         }
 

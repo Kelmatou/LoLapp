@@ -2448,7 +2448,7 @@ namespace LoLapp
                         current_line = 7;
                         validation = true;
                         StreamWriter script = new StreamWriter(appdata_dir + "script");
-                        script.WriteLine(10);
+                        script.WriteLine(9);
                         script.Close();
                     }
                     break;

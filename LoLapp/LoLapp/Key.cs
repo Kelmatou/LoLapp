@@ -8,6 +8,9 @@ namespace LoLapp
 {
     public class Key
     {
+        //DEMO KEYS:
+        //"d09607d9-e791-42f2-ae4d-7a85425fa859"; // clé d'identification primaire (Magnum35)
+        //"72f8bd38-777e-4fd8-86f5-e420d45f5d6f"; // clé d'identification secondaire (Magnoob35)
         public string KeyValue;
         public List<DateTime> request_limit_second_key;
         public List<DateTime> request_limit_10minutes_key;
