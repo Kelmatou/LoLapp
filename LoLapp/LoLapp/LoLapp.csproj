@@ -75,7 +75,6 @@
     <Compile Include="Runes.cs" />
     <Compile Include="Script.cs" />
     <Compile Include="Summoner.cs" />
-    <Compile Include="Team.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

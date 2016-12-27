@@ -325,6 +325,11 @@
             "AssemblyAsmDisplayName" = "8:Newtonsoft.Json, Version=4.5.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL"
                 "ScatterAssemblies"
                 {
+                    "_1E9F003FD259FC60FB3D7A535533F578"
+                    {
+                    "Name" = "8:Newtonsoft.Json.dll"
+                    "Attributes" = "3:512"
+                    }
                 }
             "SourcePath" = "8:Newtonsoft.Json.dll"
             "TargetName" = "8:"
@@ -391,6 +396,11 @@
             "AssemblyAsmDisplayName" = "8:agsXMPP, Version=0.9.2.0, Culture=neutral, PublicKeyToken=ff839b81f1debe86, processorArchitecture=MSIL"
                 "ScatterAssemblies"
                 {
+                    "_4995B9FDA77760101D4608AB6500C490"
+                    {
+                    "Name" = "8:agsXMPP.dll"
+                    "Attributes" = "3:512"
+                    }
                 }
             "SourcePath" = "8:agsXMPP.dll"
             "TargetName" = "8:"
@@ -517,6 +527,11 @@
             "AssemblyAsmDisplayName" = "8:System.Net.Json, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL"
                 "ScatterAssemblies"
                 {
+                    "_A73EFBE26E5F58F74B9326E29784FF9A"
+                    {
+                    "Name" = "8:System.Net.Json.dll"
+                    "Attributes" = "3:512"
+                    }
                 }
             "SourcePath" = "8:System.Net.Json.dll"
             "TargetName" = "8:"
@@ -563,6 +578,11 @@
             "AssemblyAsmDisplayName" = "8:System.Net.Http, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a"
                 "ScatterAssemblies"
                 {
+                    "_CB4691EC0F18CA7104C022ECD81659CB"
+                    {
+                    "Name" = "8:System.Net.Http.dll"
+                    "Attributes" = "3:512"
+                    }
                 }
             "SourcePath" = "8:System.Net.Http.dll"
             "TargetName" = "8:"
@@ -589,6 +609,11 @@
             "AssemblyAsmDisplayName" = "8:System.Net.Http.WebRequest, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a"
                 "ScatterAssemblies"
                 {
+                    "_E899B20F3EA9F1780CBBA3F4863D6249"
+                    {
+                    "Name" = "8:System.Net.Http.WebRequest.dll"
+                    "Attributes" = "3:512"
+                    }
                 }
             "SourcePath" = "8:System.Net.Http.WebRequest.dll"
             "TargetName" = "8:"
@@ -750,15 +775,15 @@
         {
         "Name" = "8:Microsoft Visual Studio"
         "ProductName" = "8:LoLapp"
-        "ProductCode" = "8:{14FD1632-F424-4938-A989-377558A1C623}"
-        "PackageCode" = "8:{905EB3A3-7AC5-4DC8-9463-D72067A2DE23}"
+        "ProductCode" = "8:{8D8A341F-F0FD-4736-9B26-AE17ADAE0016}"
+        "PackageCode" = "8:{06C090E3-8B3E-4DF8-B51A-6ADFF8B50FA4}"
         "UpgradeCode" = "8:{AF23E85D-E92B-4D8A-9F50-60E508DFF674}"
         "AspNetVersion" = "8:4.0.30319.0"
         "RestartWWWService" = "11:FALSE"
         "RemovePreviousVersions" = "11:TRUE"
         "DetectNewerInstalledVersion" = "11:TRUE"
         "InstallAllUsers" = "11:FALSE"
-        "ProductVersion" = "8:3.0.9"
+        "ProductVersion" = "8:3.1.0"
         "Manufacturer" = "8:Kelmatou Apps"
         "ARPHELPTELEPHONE" = "8:"
         "ARPHELPLINK" = "8:"

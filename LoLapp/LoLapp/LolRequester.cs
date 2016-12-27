@@ -19,7 +19,6 @@ namespace LoLapp
         private const string versionChampionStat = "v1.3"; //stat
         private const string versionHistory = "v2.2"; //matchlist
         private const string versionHistory_details = "v2.2"; //match
-        private const string versionTeam = "v2.4"; //team
         private const string versionStaticData = "v1.2"; //static data
 
         private string summonerPath = "/api/lol/{0}/{1}/summoner/by-name/{2}?api_key=";// url pour les infos de base (dont l'ID) //{0} = region; {1} = version api; {2} = summonerName
@@ -29,7 +28,6 @@ namespace LoLapp
         private string gamePath = "/observer-mode/rest/consumer/getSpectatorGameInfo/{1}/{2}?api_key="; //url pour les infos de la game //{1} = server; {2} = ID summoner
         private string summonerHistory = "/api/lol/{0}/{1}/matchlist/by-summoner/{2}?api_key=";// url pour les infos de base de l'historique (dont l'ID) //{0} = region; {1} = version api; {2} = ID summoner
         private string summonerHistory_details = "/api/lol/{0}/{1}/match/{2}?api_key=";// url pour les infos detaillee de l'historique //{0} = region; {1} = version api; {2} = ID game
-        private string summonerTeam = "/api/lol/{0}/{1}/team/by-summoner/{2}?api_key=";// url pour les infos de la Team //{0} = region; {1} = version api; {2} = ID summoner
         private string championInfo = "/api/lol/static-data/{0}/{1}/champion/{2}?champData=allytips,enemytips,info,lore,passive,skins,spells,stats&api_key=";// url pour les infos d'un champion //{0} = region; {1} = version api; {2} = ID champion
         private string championMastery = "/championmastery/location/{0}/player/{1}/champions?api_key="; //url pour obtenir le niveau de maitrise des champions d'un summoner //{0} = region; {1} = ID summoner
         private string League_of_Legends_version = "https://global.api.pvp.net/api/lol/static-data/euw/v1.2/versions?api_key=";
@@ -418,24 +416,6 @@ namespace LoLapp
                     Console.Write("\n> Waiting for " + summonerName + " history...");
                     Console.SetCursorPosition(0, Console.CursorTop - 3);
                     return (new History(demand, summonerName, region, root, summonerHistory_details, versionHistory_details, ref requester));
-                }
-            }
-
-            return (null);
-        }
-
-        public Team GetTeam(string summonerName, string region, ref LolRequester requester)
-        {
-            Summoner player = GetSummoner(0, summonerName, region, false);
-            root = "https://" + region + ".api.pvp.net";
-            if (player != null)
-            {
-                JsonObject demand = null;
-                int mode = -1;
-
-                if (Request(string.Format(root + summonerTeam, region, versionTeam, player._id), true, ref demand, summonerName, region, ref mode, true, player._id))
-                {
-                    return (new Team(demand, player._id, region, summonerName, ref requester));
                 }
             }
 

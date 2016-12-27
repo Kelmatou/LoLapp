@@ -257,6 +257,8 @@ namespace LoLapp
                     return ("Vel'Koz");
                 case (163):
                     return ("Taliyah");
+                case (164):
+                    return ("Camille");
                 case (201):
                     return ("Braum");
                 case (202):
@@ -532,6 +534,8 @@ namespace LoLapp
                     return (161);
                 case ("Taliyah"):
                     return (163);
+                case ("Camille"):
+                    return (164);
                 case ("Braum"):
                     return (201);
                 case ("Jhin"):
@@ -805,6 +809,8 @@ namespace LoLapp
                     return (new int[] { 2, 1, 0, 4, 3 });
                 case ("Taliyah"):
                     return (new int[] { 2, 4, 0, 1, 3 });
+                case ("Camille"):
+                    return (new int[] { 1, 0, 4, 2, 3 });
                 case ("Zyra"):
                     return (new int[] { 4, 2, 0, 1, 3 });
                 case ("Gnar"):

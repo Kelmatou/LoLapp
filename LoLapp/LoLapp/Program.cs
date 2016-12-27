@@ -16,8 +16,8 @@ namespace LoLapp
 {
     public class Program
     {
-        const string version = "VERSION: 1610091537 [PATCH 6.20]";
-        const string patch_compatibility = "6.20";
+        const string version = "VERSION: 1612271139 [PATCH 6.24]";
+        const string patch_compatibility = "6.24";
 
         static void Main(string[] args)
         {
@@ -156,7 +156,7 @@ namespace LoLapp
                 {
                     script_mode = true;
                     current_line = Script.convert_string_choice_to_int(Script.read_script_instruction(appdata_dir + "script"));
-                    if (current_line > 10 || current_line < 0)
+                    if (current_line > 9 || current_line < 0)
                     {
                         current_line = -1;
                         script_mode = false;
@@ -174,7 +174,7 @@ namespace LoLapp
                             launch_League_of_Legends(appdata_dir);
                         else
                         {
-                            Console.SetCursorPosition(0, 26);
+                            Console.SetCursorPosition(0, 25);
                             Console.ForegroundColor = ConsoleColor.DarkRed;
                             Data_library.print_n_space((Console.WindowWidth / 2) - 19);
                             Console.WriteLine("League of Legends is already running...");
@@ -190,7 +190,7 @@ namespace LoLapp
                             launch_League_of_Legends_PBE(appdata_dir);
                         else
                         {
-                            Console.SetCursorPosition(0, 26);
+                            Console.SetCursorPosition(0, 25);
                             Console.ForegroundColor = ConsoleColor.DarkRed;
                             Data_library.print_n_space((Console.WindowWidth / 2) - 19);
                             Console.WriteLine("League of Legends is already running...");
@@ -230,19 +230,14 @@ namespace LoLapp
                     else if (current_line == 7)
                     {
                         Console.Clear();
-                        launch_Search_team(ref script_mode, appdata_dir, all_users, ref requester);
+                        launch_Patch_Update(lolclient_connected, userName, userRegion, requester, League_of_Legends_Version, League_of_Legends_Status, appdata_dir);
                     }
                     else if (current_line == 8)
                     {
                         Console.Clear();
-                        launch_Patch_Update(lolclient_connected, userName, userRegion, requester, League_of_Legends_Version, League_of_Legends_Status, appdata_dir);
-                    }
-                    else if (current_line == 9)
-                    {
-                        Console.Clear();
                         settings(ref userName, ref userRegion, appdata_dir, ref lolclient_connected, League_of_Legends_Version, ref League_of_Legends_Status, ref game_mode, ref all_users, ref requester, ref allLoLUsers);
                     }
-                    else if (current_line == 10)
+                    else if (current_line == 9)
                     {
                         working = false;
                     }
@@ -516,87 +511,6 @@ namespace LoLapp
                 Champion champion = requester.GetChampionInfo(ChampionName);
                 if (champion != null)
                     champion.display_champion_info();
-            }
-            else
-            {
-                Console.WriteLine("> LoLapp: Process canceled");
-                Thread.Sleep(200);
-            }
-        }
-
-        static void launch_Search_team(ref bool script_mode, string appdata_dir, List<string> all_users, ref LolRequester requester)
-        {
-            string summonerName = "";
-            string region = "";
-
-            Console.Title = "LoLapp - Summoner Team";
-            Console.WriteLine("\n");
-            Data_library.print_n_space((Console.WindowWidth / 2) - 6);
-            Console.ForegroundColor = ConsoleColor.DarkRed;
-            Console.WriteLine("Summoner Team\n");
-            Console.ResetColor();
-
-            if (script_mode)
-            {
-                summonerName = Script.read_script_instruction(appdata_dir + "script");
-                Script.delete_script_instruction(appdata_dir + "script", ref script_mode);
-                region = Script.read_script_instruction(appdata_dir + "script");
-                Script.delete_script_instruction(appdata_dir + "script", ref script_mode);
-            }
-            Console.ForegroundColor = ConsoleColor.DarkGreen;
-            Console.Write("\n> Summoner name: ");
-            if (summonerName != "")
-            {
-                Console.WriteLine(summonerName);
-            }
-            else
-            {
-                summonerName = summoner_selection(all_users);
-            }
-            Console.Write("> Region: ");
-            if (region != "")
-            {
-                Console.WriteLine(Data_library.convert_server_to_server_name(region));
-            }
-            else if (summonerName != "")
-            {
-                region = server_selection(get_server_in_profile_files(appdata_dir + "Profiles/" + summonerName));
-            }
-            else
-            {
-                Console.WriteLine();
-            }
-            Console.ForegroundColor = ConsoleColor.DarkYellow;
-
-            if (region != "")
-            {
-                if (Data_library.is_valid_server(ref region))
-                {
-                    Team summonerTeam = requester.GetTeam(summonerName, region, ref requester);
-                    if (summonerTeam != null)
-                    {
-                        Data_library.free_waiting_keys();
-                        summonerTeam.team_selection_menu(ref requester);
-                    }
-                    else
-                    {
-                        Console.WriteLine("\n\n");
-                        Data_library.print_n_space((Console.WindowWidth / 2) - 9 - (summonerName.Length / 2));
-                        Console.WriteLine("No team found for " + summonerName + "\n\n");
-                        Data_library.print_n_space((Console.WindowWidth / 2) - 14);
-                        Console.Write("Press 'Enter' to continue...");
-                        while (Console.ReadKey(true).Key != ConsoleKey.Enter)
-                        {
-
-                        }
-                        Console.Clear();
-                    }
-                }
-                else
-                {
-                    Console.WriteLine("> LoLapp: " + region + ": Unknown region");
-                    Thread.Sleep(2000);
-                }
             }
             else
             {
@@ -1830,17 +1744,12 @@ namespace LoLapp
 
         static bool client_launched()
         {
-            Process[] game_process = Process.GetProcessesByName("LolClient");
+            Process[] game_process = Process.GetProcessesByName("LeagueClientUx");
             if (game_process.Length != 0)
             {
                 return (true);
             }
-            game_process = Process.GetProcessesByName("LoLLauncher");
-            if (game_process.Length != 0)
-            {
-                return (true);
-            }
-            game_process = Process.GetProcessesByName("LoLPatcher");
+            game_process = Process.GetProcessesByName("LeagueClient");
             return (game_process.Length != 0);
         }
 
@@ -1949,54 +1858,40 @@ namespace LoLapp
             {
                 Console.SetCursorPosition(0, 21);
                 Console.ForegroundColor = ConsoleColor.DarkYellow;
-                Data_library.print_n_space((Console.WindowWidth / 2) - 12);
-                Console.WriteLine("> Summoner's team info <");
-            }
-            else
-            {
-                Console.SetCursorPosition(0, 21);
-                Console.ResetColor();
-                Data_library.print_n_space((Console.WindowWidth / 2) - 10);
-                Console.WriteLine("Summoner's team info");
-            }
-            if (current_line == 8)
-            {
-                Console.SetCursorPosition(0, 22);
-                Console.ForegroundColor = ConsoleColor.DarkYellow;
                 Data_library.print_n_space((Console.WindowWidth / 2) - 7);
                 Console.WriteLine("> Patch note <");
             }
             else
             {
-                Console.SetCursorPosition(0, 22);
+                Console.SetCursorPosition(0, 21);
                 Console.ResetColor();
                 Data_library.print_n_space((Console.WindowWidth / 2) - 5);
                 Console.WriteLine("Patch note");
             }
-            if (current_line == 9)
+            if (current_line == 8)
             {
-                Console.SetCursorPosition(0, 23);
+                Console.SetCursorPosition(0, 22);
                 Console.ForegroundColor = ConsoleColor.DarkYellow;
                 Data_library.print_n_space((Console.WindowWidth / 2) - 6);
                 Console.WriteLine("> Settings <");
             }
             else
             {
-                Console.SetCursorPosition(0, 23);
+                Console.SetCursorPosition(0, 22);
                 Console.ResetColor();
                 Data_library.print_n_space((Console.WindowWidth / 2) - 4);
                 Console.WriteLine("Settings");
             }
-            if (current_line == 10)
+            if (current_line == 9)
             {
-                Console.SetCursorPosition(0, 24);
+                Console.SetCursorPosition(0, 23);
                 Console.ForegroundColor = ConsoleColor.DarkYellow;
                 Data_library.print_n_space((Console.WindowWidth / 2) - 4);
                 Console.WriteLine("> Exit <");
             }
             else
             {
-                Console.SetCursorPosition(0, 24);
+                Console.SetCursorPosition(0, 23);
                 Console.ResetColor();
                 Data_library.print_n_space((Console.WindowWidth / 2) - 2);
                 Console.WriteLine("Exit");
@@ -2052,23 +1947,17 @@ namespace LoLapp
                 case (7):
                     Console.SetCursorPosition(0, 21);
                     Console.ResetColor();
-                    Data_library.print_n_space((Console.WindowWidth / 2) - 10);
-                    Console.WriteLine("Summoner's team info     ");
+                    Data_library.print_n_space((Console.WindowWidth / 2) - 5);
+                    Console.WriteLine("Patch note     ");
                     break;
                 case (8):
                     Console.SetCursorPosition(0, 22);
                     Console.ResetColor();
-                    Data_library.print_n_space((Console.WindowWidth / 2) - 5);
-                    Console.WriteLine("Patch note     ");
-                    break;
-                case (9):
-                    Console.SetCursorPosition(0, 23);
-                    Console.ResetColor();
                     Data_library.print_n_space((Console.WindowWidth / 2) - 4);
                     Console.WriteLine("Settings     ");
                     break;
-                case (10):
-                    Console.SetCursorPosition(0, 24);
+                case (9):
+                    Console.SetCursorPosition(0, 23);
                     Console.ResetColor();
                     Data_library.print_n_space((Console.WindowWidth / 2) - 2);
                     Console.WriteLine("Exit     ");
@@ -2122,23 +2011,17 @@ namespace LoLapp
                 case (7):
                     Console.SetCursorPosition(0, 21);
                     Console.ForegroundColor = ConsoleColor.DarkYellow;
-                    Data_library.print_n_space((Console.WindowWidth / 2) - 12);
-                    Console.WriteLine("> Summoner's team info <");
+                    Data_library.print_n_space((Console.WindowWidth / 2) - 7);
+                    Console.WriteLine("> Patch note <");
                     break;
                 case (8):
                     Console.SetCursorPosition(0, 22);
                     Console.ForegroundColor = ConsoleColor.DarkYellow;
-                    Data_library.print_n_space((Console.WindowWidth / 2) - 7);
-                    Console.WriteLine("> Patch note <");
-                    break;
-                case (9):
-                    Console.SetCursorPosition(0, 23);
-                    Console.ForegroundColor = ConsoleColor.DarkYellow;
                     Data_library.print_n_space((Console.WindowWidth / 2) - 6);
                     Console.WriteLine("> Settings <");
                     break;
-                case (10):
-                    Console.SetCursorPosition(0, 24);
+                case (9):
+                    Console.SetCursorPosition(0, 23);
                     Console.ForegroundColor = ConsoleColor.DarkYellow;
                     Data_library.print_n_space((Console.WindowWidth / 2) - 4);
                     Console.WriteLine("> Exit <");
@@ -2153,23 +2036,23 @@ namespace LoLapp
                 case (ConsoleKey.UpArrow):
                     previous_line = current_line;
                     if (current_line == 0)
-                        current_line = 10;
+                        current_line = 9;
                     else
                         current_line--;
                     break;
                 case (ConsoleKey.DownArrow):
                     previous_line = current_line;
-                    if (current_line == 10)
+                    if (current_line == 9)
                         current_line = 0;
                     else
                         current_line++;
                     break;
                 case (ConsoleKey.Escape):
                     previous_line = current_line;
-                    if (current_line == 10)
+                    if (current_line == 9)
                         validation = true;
                     else
-                        current_line = 10;
+                        current_line = 9;
                     break;
                 case (ConsoleKey.Enter):
                     validation = true;
@@ -2198,7 +2081,7 @@ namespace LoLapp
                     if (key_pressed.Modifiers == ConsoleModifiers.Alt)
                     {
                         previous_line = current_line;
-                        current_line = 10;
+                        current_line = 9;
                         validation = true;
                     }
                     break;
