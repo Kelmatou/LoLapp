@@ -2289,6 +2289,8 @@ namespace LoLapp
                     return ("Summoner's Rift 6v6 Hexakill");
                 case (76):
                     return ("Normal Ultra Rapid Fire 5v5");
+                case (78):
+                    return ("One for All Mirror 5v5");
                 case (83):
                     return ("Coop vs IA Ultra Rapid Fire 5v5");
                 case (91):
@@ -2309,10 +2311,20 @@ namespace LoLapp
                     return ("Nemesis 5v5");
                 case (313):
                     return ("Black Market Brawlers 5v5");
+                case (315):
+                    return ("Nexus Siege 5v5");
+                case (317):
+                    return ("Definitely Not Dominion 5v5");
+                case (318):
+                    return ("All Random URF 5v5");
                 case (400):
                     return ("Normal 5v5 Draft Pick");
                 case (410):
                     return ("Ranked 5v5 Draft Pick");
+                case (420):
+                    return ("Ranked 5v5 Draft Pick");
+                case (440):
+                    return ("Ranked Flex 5v5 Draft Pick");
                 default:
                     return ("Unknown");
             }
