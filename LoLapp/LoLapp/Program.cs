@@ -16,7 +16,7 @@ namespace LoLapp
 {
     public class Program
     {
-        const string version = "VERSION: 1612271139 [PATCH 6.24]";
+        const string version = "VERSION: 1701011939 [PATCH 6.24]";
         const string patch_compatibility = "6.24";
 
         static void Main(string[] args)
@@ -270,11 +270,11 @@ namespace LoLapp
                     Thread.Sleep(2000);
                 }
             }
-            else if (File.Exists("C:\\Riot Games\\League of Legends\\lol.launcher.exe"))
+            else if (File.Exists("C:\\Riot Games\\League of Legends\\LeagueClient.exe"))
             {
                 try
                 {
-                    launch_app("C:\\Riot Games\\League of Legends\\lol.launcher.exe");
+                    launch_app("C:\\Riot Games\\League of Legends\\LeagueClient.exe");
                 }
                 catch (Exception)
                 {
@@ -2541,9 +2541,7 @@ namespace LoLapp
                 }
 
                 if (location == null)
-                {
                     location = "";
-                }
             }
 
             return (location);
@@ -2568,9 +2566,7 @@ namespace LoLapp
                 }
 
                 if (location == null)
-                {
                     location = "";
-                }
             }
 
             return (location);

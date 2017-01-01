@@ -994,6 +994,8 @@ namespace LoLapp
                         return (12);
                     case ("/alert"):
                         return (13);
+                    case ("/clear"):
+                        return (14);
                     default:
                         return (0);
                 }
@@ -1046,8 +1048,11 @@ namespace LoLapp
                         Console.BufferHeight += 20;
                     Console.WriteLine("> LoLapp: Command check " + (commandCheck ? "enabled" : "disabled"));
                     break;
-                case(13):
+                case (13):
                     alertManager(commandArg);
+                    break;
+                case (14):
+                    clearChat();
                     break;
                 default:
                     if (Console.CursorTop > Console.BufferHeight - 3)
@@ -1062,13 +1067,15 @@ namespace LoLapp
 
         private static void help()
         {
-            if (Console.CursorTop > Console.BufferHeight - 14)
+            if (Console.CursorTop > Console.BufferHeight - 16)
                 Console.BufferHeight += 20;
             Console.WriteLine("> /alert <summoner name>    --- (enable/disable) alerts for a summoner");
             Console.WriteLine("> /available                --- set you as available");//green in LoLclient
             Console.WriteLine("> /away                     --- set you as away"); //red in LoLclient
             Console.WriteLine("> /check                    --- (enable/disable) command check");
+            Console.WriteLine("> /clear                    --- clear the screen");
             Console.WriteLine("> /contact                  --- show all contact status");
+            Console.WriteLine("> /exit                     --- exit Chat");
             Console.WriteLine("> /invisible                --- set your visibility as disconnected");//like disconnected in LoLclient
             Console.WriteLine("> /message <summoner> <msg> --- send a message fastly to someone (/msg)");
             Console.WriteLine("> /mobile                   --- allow people to invite you in game"); //mobile in LoLclient
@@ -1383,6 +1390,17 @@ namespace LoLapp
                     Console.WriteLine("> LoLapp: Alerts for " + summoner + " enabled");
                 }   
             }
+        }
+
+        private static void clearChat()
+        {
+            int curLeft = Console.CursorLeft;
+            int curTop = Console.CursorTop;
+            if (Console.CursorTop > Console.BufferHeight - Console.WindowHeight - 1)
+                Console.BufferHeight += Console.WindowHeight;
+            for (int i = 0; i < Console.WindowHeight; i++)
+                Console.WriteLine();
+            Console.SetCursorPosition(curLeft, curTop);
         }
     }
 }

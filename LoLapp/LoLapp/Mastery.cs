@@ -57,7 +57,7 @@ namespace LoLapp
                     case (6164):
                         return ("Deathfire Touch");
                     case (6262):
-                        return ("Strength of the Ages");
+                        return ("Courage of the Colossus");
                     case (6263):
                         return ("Bond of Stone");
                     case (6362):
@@ -80,13 +80,13 @@ namespace LoLapp
                 case (6261):
                     return ("Every 4 seconds in combat, your next attack against an enemy champion steals life equal to 2.5% of your max Health (halved for ranged champions, deals magic damage)");
                 case (6162):
-                    return ("You generate stacks of Fervor by hitting enemy champions with attacks and abilities. Your basic attacks deal 1-14 bonus physical damage (based on your level) to enemy champions for each of your stacks of Fervor (max 8 stacks).Damaging enemy champions with an attack generates 1 stack of Fervor (2 for melee champions) and damaging enemy champions with an ability generates 2 stacks of Fervor (2 second cooldown). Stacks of Fervor last 6 seconds.");
+                    return ("Hitting champions with basic attacks generates a Fervor stack (2 for melee attacks). Stacks of Fervor last 6 seconds (max 8 stacks)and increase your AD by 1-8 for each stack.");
                 case (6161):
                     return ("Gain increasingly more Life Steal based on your missing health against champions (up to 20%). Against minions gain 50% benefit (25% for ranged champions).");
                 case (6164):
                     return ("Your damaging abilities cause enemy champions to take additional magic damage equal to 8 + 60% of your Bonus Attack Damage and 25% of your Ability Power, over 4 seconds. Deathfire Touch has reduced effectiveness when applied by area of effect and damage over time abilities.     - Area of Effect: 2 second duration.      - Damage over time: 1 second duration.");
                 case (6262):
-                    return ("Siege minions and large monsters that you or nearby allied champions kill grant 20 and 10 permanent Health, respectively (300 max). After reaching the max bonus, these kills instead restore 6% of your Maximum Health.");
+                    return ("Gain a shield for 10 +10 per level + 5%  of your maximum health for each nearby enemy champion for 4 seconds after hitting an enemy champion with a stun, taunt, snare, or knock up(45 - 30 second cooldown based on level).");
                 case (6263):
                     return ("+4% Damage Reduction. 6% of the damage from enemy champions taken by the nearest allied champion is dealt to you instead. Damage is not redirected if you are below 5% of your maximum health.");
                 case (6362):
@@ -212,6 +212,14 @@ namespace LoLapp
                     return (2);
                 case (6223):
                     return (3);
+                case (6143):
+                    return (1);
+                case (6341):
+                    return (2);
+                case (6222):
+                    return (3);
+                case (6243):
+                    return (3);
                 default:
                     return (0);
             }
@@ -303,6 +311,14 @@ namespace LoLapp
                     return (ConsoleColor.DarkCyan);
                 case (6223):
                     return (ConsoleColor.DarkGreen);
+                case (6143):
+                    return (ConsoleColor.DarkRed);
+                case (6341):
+                    return (ConsoleColor.DarkCyan);
+                case (6222):
+                    return (ConsoleColor.DarkGreen);
+                case (6243):
+                    return (ConsoleColor.DarkGreen);
                 default:
                     return (Console.ForegroundColor);
             }
@@ -313,7 +329,7 @@ namespace LoLapp
             switch (Convert.ToInt32(idMastery))
             {
                 case (6121):
-                    return ("Double Edged Sword");
+                    return ("Fresh Blood");
                 case (6122):
                     return ("Feast");
                 case (6261):
@@ -323,7 +339,7 @@ namespace LoLapp
                 case (6141):
                     return ("Bounty Hunter");
                 case (6142):
-                    return ("Oppressor");
+                    return ("Double Edged Sword");
                 case (6162):
                     return ("Fervor of Battle");
                 case (6161):
@@ -343,7 +359,7 @@ namespace LoLapp
                 case (6322):
                     return ("Secret Stash");
                 case (6262):
-                    return ("Strength of the Ages");
+                    return ("Courage of the Colossus");
                 case (6263):
                     return ("Bond of Stone");
                 case (6343):
@@ -394,6 +410,14 @@ namespace LoLapp
                     return ("Windspeaker's Blessing");
                 case (6223):
                     return ("Tough Skin");
+                case (6143):
+                    return ("Battle Trance");
+                case (6341):
+                    return ("Greenfather's Gift");
+                case (6222):
+                    return ("Siegemaster");
+                case (6243):
+                    return ("Fearless");
                 default:
                     return ("Unknown");
             }
@@ -404,7 +428,7 @@ namespace LoLapp
             switch (Convert.ToInt32(idMastery))
             {
                 case (6121):
-                    return ("Melee: Deal 3% additional damage, take 1.5% additional damage. Ranged: Deal and take 2% additional damage");
+                    return ("Your first basic attack against a champion deals an additional 10 +1 per level damage (6 second cooldown)");
                 case (6122):
                     return ("Killing a unit restores 20 Health (30 second cooldown)");
                 case (6261):
@@ -412,11 +436,11 @@ namespace LoLapp
                 case (6123):
                     return ("Damaging enemy champions causes them to take 3% more damage from your allies");
                 case (6141):
-                    return ("Deal 1% increased damage for each unique enemy champion you have killed");
+                    return ("Deal 1.5% increased damage for each unique enemy champion you have killed");
                 case (6142):
-                    return ("Deal 2.5% increased damage to targets with impaired movement (slow, stun, root, taunt, etc.)");
+                    return ("Deal 5% additional damage, take 2.5% additional damage.");
                 case (6162):
-                    return ("You generate stacks of Fervor by hitting enemy champions with attacks and abilities. Your basic attacks deal 1-14 bonus physical damage (based on your level) to enemy champions for each of your stacks of Fervor (max 8 stacks).Damaging enemy champions with an attack generates 1 stack of Fervor (2 for melee champions) and damaging enemy champions with an ability generates 2 stacks of Fervor (2 second cooldown). Stacks of Fervor last 6 seconds.");
+                    return ("Hitting champions with basic attacks generates a Fervor stack (2 for melee attacks). Stacks of Fervor last 6 seconds (max 8 stacks)and increase your AD by 1-8 for each stack.");
                 case (6161):
                     return ("Gain increasingly more Life Steal based on your missing health against champions (up to 20%). Against minions gain 50% benefit (25% for ranged champions).");
                 case (6164):
@@ -434,7 +458,7 @@ namespace LoLapp
                 case (6322):
                     return ("Your Potions and Elixirs last 10% longer.Your Health Potions are replaced with Biscuits that restore 15 Health and Mana instantly on use");
                 case (6262):
-                    return ("Siege minions and large monsters that you or nearby allied champions kill grant 20 and 10 permanent Health, respectively (300 max). After reaching the max bonus, these kills instead restore 6% of your Maximum Health.");
+                    return ("Gain a shield for 10 +10 per level + 5%  of your maximum health for each nearby enemy champion for 4 seconds after hitting an enemy champion with a stun, taunt, snare, or knock up(45 - 30 second cooldown based on level).");
                 case (6263):
                     return ("+4% Damage Reduction. 6% of the damage from enemy champions taken by the nearest allied champion is dealt to you instead. Damage is not redirected if you are below 5% of your maximum health.");
                 case (6343):
@@ -458,15 +482,15 @@ namespace LoLapp
                     switch (Convert.ToInt32(lvl))
                     {
                         case (1):
-                            return ("Gain 0.6 + 0.06 per level Magic Penetration and Armor Penetration");
+                            return ("Gain 1.7 Lethality and 0.6 + 0.06 per level Magic Penetration");
                         case (2):
-                            return ("Gain 1.2 + 0.12 per level Magic Penetration and Armor Penetration");
+                            return ("Gain 3.4 Lethality and 1.2 + 0.12 per level Magic Penetration");
                         case (3):
-                            return ("Gain 1.8 + 0.18 per level Magic Penetration and Armor Penetration");
+                            return ("Gain 5.1 Lethality and 1.8 + 0.18 per level Magic Penetration");
                         case (4):
-                            return ("Gain 2.4 + 0.24 per level Magic Penetration and Armor Penetration");
+                            return ("Gain 6.8 Lethality and 2.4 + 0.24 per level Magic Penetration");
                         case (5):
-                            return ("Gain 3 + 0.3 per level Magic Penetration and Armor Penetration");
+                            return ("Gain 8.5 Lethality and 3 + 0.3 per level Magic Penetration");
                     }
                     break;
                 case (6212):
@@ -720,6 +744,14 @@ namespace LoLapp
                     return ("Your heals and shields are 10% stronger. Additionally, your shields and heals on other allies increase their armor by 5-22 (based on level) and their magic resistance by half that amount for 3 seconds.");
                 case (6223):
                     return ("You take 2 less damage from champion and neutral monster basic attacks");
+                case (6143):
+                    return ("Gain up to 5% increased damage over 5 seconds when in combat with enemy Champions");
+                case (6341):
+                    return ("Stepping into brush causes your next damaging attack or ability to deal 3% of your target's current health as bonus magic damage (9s Cooldown)");
+                case (6222):
+                    return ("Gain 8 Armor and Magic Resistance when near an allied tower");
+                case (6243):
+                    return ("Gain 10% +2 per level bonus Armor and Magic Resist when damaged by an enemy champion for 2 seconds (9s Cooldown)");
             }
             return ("Unknown");
         }
