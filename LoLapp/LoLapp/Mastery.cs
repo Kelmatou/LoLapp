@@ -112,7 +112,7 @@ namespace LoLapp
                     return (Console.ForegroundColor = ConsoleColor.DarkRed);
                 case ("Deathfire Touch"):
                     return (Console.ForegroundColor = ConsoleColor.DarkRed);
-                case ("Strength of the Ages"):
+                case ("Courage of the Colossus"):
                     return (Console.ForegroundColor = ConsoleColor.DarkGreen);
                 case ("Bond of Stone"):
                     return (Console.ForegroundColor = ConsoleColor.DarkGreen);
