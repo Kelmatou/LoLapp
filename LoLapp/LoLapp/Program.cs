@@ -16,7 +16,7 @@ namespace LoLapp
 {
     public class Program
     {
-        const string version = "VERSION: 1701012302 [PATCH 6.24]";
+        const string version = "VERSION: 1701052302 [PATCH 6.24]";
         const string patch_compatibility = "6.24";
 
         static void Main(string[] args)
@@ -252,7 +252,7 @@ namespace LoLapp
             }
         }
 
-        static void launch_League_of_Legends(string appdata_dir)
+        static public void launch_League_of_Legends(string appdata_dir, bool ask_location = true)
         {
             string location = get_lol_location(appdata_dir);
             ConsoleKeyInfo key_pressed = new ConsoleKeyInfo();
@@ -282,7 +282,7 @@ namespace LoLapp
                     Thread.Sleep(2000);
                 }
             }
-            else
+            else if (ask_location)
             {
                 Console.Clear();
                 Console.Write("\n\n");
@@ -2451,6 +2451,9 @@ namespace LoLapp
                         script.WriteLine(9);
                         script.Close();
                     }
+                    break;
+                case (ConsoleKey.L):
+                    launch_League_of_Legends(appdata_dir, false);
                     break;
                 case (ConsoleKey.D0):
                     previous_line = current_line;

@@ -500,8 +500,7 @@ namespace LoLapp
                 } while (!Console.KeyAvailable);
                 key_pressed = Console.ReadKey(true);
                 keyboardEntry(ref text, key_pressed, userName, appdata_dir, ref wordLength, ref lastLinePosition);
-                
-            } while ((key_pressed.Key != ConsoleKey.Enter || text == "") && key_pressed.Key != ConsoleKey.Escape && (key_pressed.Key != ConsoleKey.F4 || key_pressed.Modifiers != ConsoleModifiers.Alt));
+            } while ((key_pressed.Key != ConsoleKey.Enter || text == "") && key_pressed.Key != ConsoleKey.Escape && (key_pressed.Key != ConsoleKey.F4 || key_pressed.Modifiers != ConsoleModifiers.Alt) && key_pressed.Key != ConsoleKey.F1 && key_pressed.Key != ConsoleKey.F2);
 
             Console.CursorVisible = false;
             return (text);
@@ -509,16 +508,7 @@ namespace LoLapp
 
         private static void keyboardEntry(ref string text, ConsoleKeyInfo key_pressed, string userName, string appdata_dir, ref int wordLength, ref List<int> lastLinePosition)
         {
-            if ((key_pressed.KeyChar >= 32 && key_pressed.KeyChar <= 126) || (key_pressed.KeyChar >= 128 && key_pressed.KeyChar <= 255))
-            {
-                if (key_pressed.KeyChar == ' ')
-                    wordLength = 0;
-                else
-                    wordLength++;
-                printNewChar(key_pressed.KeyChar, text, wordLength, ref lastLinePosition);
-                text += key_pressed.KeyChar;
-            }
-            else if (key_pressed.Key == ConsoleKey.Backspace && text.Length > 0)
+            if (key_pressed.Key == ConsoleKey.Backspace && text.Length > 0)
             {
                 if(wordLength > 0)
                     wordLength--;
@@ -545,6 +535,36 @@ namespace LoLapp
                 text = "/exit";
                 Console.Write("> " + (printTime ? "[" + getTime() + "] " : "") + userName + ": " + text);
             }
+            else if (key_pressed.Key == ConsoleKey.F1)
+            {
+                wordLength = 5;
+                int nbrLine = Console.CursorTop - textFirstLine + 1;
+                Console.SetCursorPosition(0, textFirstLine);
+                Data_library.print_n_space(nbrLine * Console.WindowWidth);
+                Console.SetCursorPosition(0, textFirstLine);
+                text = "/help";
+                Console.Write("> " + (printTime ? "[" + getTime() + "] " : "") + userName + ": " + text);
+            }
+            else if (key_pressed.Key == ConsoleKey.F2)
+            {
+                wordLength = 8;
+                int nbrLine = Console.CursorTop - textFirstLine + 1;
+                Console.SetCursorPosition(0, textFirstLine);
+                Data_library.print_n_space(nbrLine * Console.WindowWidth);
+                Console.SetCursorPosition(0, textFirstLine);
+                text = "/contact";
+                Console.Write("> " + (printTime ? "[" + getTime() + "] " : "") + userName + ": " + text);
+            }
+            else if (key_pressed.Key == ConsoleKey.Tab)
+            {
+                wordLength = 5;
+                int nbrLine = Console.CursorTop - textFirstLine + 1;
+                Console.SetCursorPosition(0, textFirstLine);
+                Data_library.print_n_space(nbrLine * Console.WindowWidth);
+                Console.SetCursorPosition(0, textFirstLine);
+                text = "/msg ";
+                Console.Write("> " + (printTime ? "[" + getTime() + "] " : "") + userName + ": " + text);
+            }
             else if(key_pressed.Key == ConsoleKey.F4 && key_pressed.Modifiers == ConsoleModifiers.Alt)
             {
                 wordLength = 5;
@@ -555,6 +575,19 @@ namespace LoLapp
                 text = "/exit";
                 Console.Write("> " + (printTime ? "[" + getTime() + "] " : "") + userName + ": " + text);
                 Data_library.saveFile(appdata_dir + "script", new List<string>() {"9"});
+            }
+            else if (key_pressed.Key == ConsoleKey.L && key_pressed.Modifiers == ConsoleModifiers.Control)
+            {
+                Program.launch_League_of_Legends(appdata_dir, false);
+            }
+            else if ((key_pressed.KeyChar >= 32 && key_pressed.KeyChar <= 126) || (key_pressed.KeyChar >= 128 && key_pressed.KeyChar <= 255))
+            {
+                if (key_pressed.KeyChar == ' ')
+                    wordLength = 0;
+                else
+                    wordLength++;
+                printNewChar(key_pressed.KeyChar, text, wordLength, ref lastLinePosition);
+                text += key_pressed.KeyChar;
             }
         }
 
@@ -968,34 +1001,32 @@ namespace LoLapp
                         return(2);
                     case ("/invisible"):
                         return (3);
-                    case ("/mobile"):
-                        return (4);
                     case ("/receiver"):
-                        return (5);
+                        return (4);
                     case ("/r"):
-                        return (5);
+                        return (4);
                     case ("/available"):
-                        return (6);
+                        return (5);
                     case ("/away"):
-                        return (7);
+                        return (6);
                     case ("/time"):
-                        return (8);
+                        return (7);
                     case ("/message"):
-                        return (9);
+                        return (8);
                     case ("/msg"):
-                        return (9);
+                        return (8);
                     case ("/contact"):
-                        return (10);
+                        return (9);
                     case ("/notification"):
-                        return (11);
+                        return (10);
                     case ("/notif"):
-                        return (11);
+                        return (10);
                     case ("/check"):
-                        return (12);
+                        return (11);
                     case ("/alert"):
-                        return (13);
+                        return (12);
                     case ("/clear"):
-                        return (14);
+                        return (13);
                     default:
                         return (0);
                 }
@@ -1019,39 +1050,36 @@ namespace LoLapp
                     goInvisible(xmpp, statusFormat, statusSentence);
                     break;
                 case (4):
-                    goMobile(xmpp, statusFormat, statusSentence);
-                    break;
-                case (5):
                     changeReceiver(commandArg, ref JID_Receiver, ref receiverName, userName);
                     break;
-                case (6):
+                case (5):
                     goVisible(xmpp, statusFormat, statusSentence);
                     break;
-                case (7):
+                case (6):
                     goAway(xmpp, statusFormat, statusSentence);
                     break;
-                case (8):
+                case (7):
                     printTime = !printTime;
                     break;
-                case (9):
+                case (8):
                     sendMessage(commandArg, xmpp);
                     break;
-                case (10):
+                case (9):
                     displayContact();
                     break;
-                case (11):
+                case (10):
                     displayNotif();
                     break;
-                case (12):
+                case (11):
                     commandCheck = !commandCheck;
                     if (Console.CursorTop > Console.BufferHeight - 3)
                         Console.BufferHeight += 20;
                     Console.WriteLine("> LoLapp: Command check " + (commandCheck ? "enabled" : "disabled"));
                     break;
-                case (13):
+                case (12):
                     alertManager(commandArg);
                     break;
-                case (14):
+                case (13):
                     clearChat();
                     break;
                 default:
@@ -1067,7 +1095,7 @@ namespace LoLapp
 
         private static void help()
         {
-            if (Console.CursorTop > Console.BufferHeight - 16)
+            if (Console.CursorTop > Console.BufferHeight - 15)
                 Console.BufferHeight += 20;
             Console.WriteLine("> /alert <summoner name>    --- (enable/disable) alerts for a summoner");
             Console.WriteLine("> /available                --- set you as available");//green in LoLclient
@@ -1077,9 +1105,7 @@ namespace LoLapp
             Console.WriteLine("> /contact                  --- show all contact status");
             Console.WriteLine("> /exit                     --- exit Chat");
             Console.WriteLine("> /invisible                --- set your visibility as disconnected");//like disconnected in LoLclient
-            Console.WriteLine("> /message <summoner> <msg> --- send a message fastly to someone (/msg)");
-            Console.WriteLine("> /mobile                   --- allow people to invite you in game"); //mobile in LoLclient
-            Console.WriteLine("> /notification             --- show all message waiting (/notif)");
+            Console.WriteLine("> /message <summoner> <msg> --- send a message fastly to someone (/msg)");            Console.WriteLine("> /notification             --- show all message waiting (/notif)");
             Console.WriteLine("> /receiver [summoner name] --- change your receiver (/r)");
             Console.WriteLine("> /status <new status>      --- modify you status");
             Console.WriteLine("> /time                     --- (print/stop printing) time before message");
@@ -1128,14 +1154,6 @@ namespace LoLapp
             if (Console.CursorTop > Console.BufferHeight - 3)
                 Console.BufferHeight += 20;
             Console.WriteLine("> LoLapp: connected as Away");
-        }
-
-        private static void goMobile(XmppClientConnection xmpp, string statusFormat, string statusSentence)
-        {
-            updateStatus(xmpp, PresenceType.available, ShowType.chat, statusFormat, statusSentence, "mobile");
-            if (Console.CursorTop > Console.BufferHeight - 3)
-                Console.BufferHeight += 20;
-            Console.WriteLine("> LoLapp: connected as Mobile");
         }
 
         private static void changeReceiver(string[] command, ref string JID_Receiver, ref string receiverName, string userName)
@@ -1396,8 +1414,8 @@ namespace LoLapp
         {
             int curLeft = Console.CursorLeft;
             int curTop = Console.CursorTop;
-            if (Console.CursorTop > Console.BufferHeight - Console.WindowHeight - 1)
-                Console.BufferHeight += Console.WindowHeight;
+            while (Console.CursorTop > Console.BufferHeight - Console.WindowHeight - 1)
+                Console.BufferHeight++;
             for (int i = 0; i < Console.WindowHeight; i++)
                 Console.WriteLine();
             Console.SetCursorPosition(curLeft, curTop);

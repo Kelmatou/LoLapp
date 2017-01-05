@@ -96,7 +96,7 @@ namespace LoLapp
                         mostplayed = 0;
                         champId_temp = 0;
                         result3 = null;
-                        if (requester.Request(string.Format("https://" + region + ".api.pvp.net/api/lol/" + region + "/v1.3/stats/by-summoner/" + members[i]._id + "/ranked?season=SEASON2016&api_key="), true, ref result3, members[i].name, region, ref mode, false, members[i]._id))
+                        if (requester.Request(string.Format("https://" + region + ".api.pvp.net/api/lol/" + region + "/v1.3/stats/by-summoner/" + members[i]._id + "/ranked?season=SEASON2017&api_key="), true, ref result3, members[i].name, region, ref mode, false, members[i]._id))
                         {
                             foreach (JsonObject field2 in result3 as JsonObjectCollection)
                             {

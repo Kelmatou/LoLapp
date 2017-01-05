@@ -214,25 +214,16 @@ namespace LoLapp
             int hour = min / 60;
 
             if (sec <= 0)
-            {
                 Console.Write("0s");
-            }
             else
             {
                 if (hour > 0)
-                {
                     Console.Write(hour + "h");
-                }
                 if (min % 60 > 0)
-                {
-                    Console.Write(min % 60 + "m");
-                }
+                    Console.Write((min % 60 < 10 ? "0" : "") + min % 60 + "m");
                 if (sec % 60 > 0)
-                {
-                    Console.Write(sec % 60 + "s");
-                }
+                    Console.Write((sec % 60 < 10 ? "0" : "") + sec % 60 + "s");
             }
-
             Console.WriteLine();
         }
 

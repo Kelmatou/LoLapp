@@ -24,7 +24,7 @@ namespace LoLapp
         private string summonerPath = "/api/lol/{0}/{1}/summoner/by-name/{2}?api_key=";// url pour les infos de base (dont l'ID) //{0} = region; {1} = version api; {2} = summonerName
         private string summonerbyID = "/api/lol/{0}/{1}/summoner/{2}?api_key=";// url pour les infos de base (dont l'ID) //{0} = region; {1} = version api; {2} = summonerID
         private string summonerDivision = "/api/lol/{0}/{1}/league/by-summoner/{2}/entry?api_key=";// url pour les infos de base (dont l'ID) //{0} = region; {1} = version api; {2} = ID summoner
-        private string championStat = "/api/lol/{0}/{1}/stats/by-summoner/{2}/ranked?season=SEASON2016&api_key=";// url pour les infos de base (dont l'ID) //{0} = region; {1} = version api; {2} = ID summoner
+        private string championStat = "/api/lol/{0}/{1}/stats/by-summoner/{2}/ranked?season=SEASON2017&api_key=";// url pour les infos de base (dont l'ID) //{0} = region; {1} = version api; {2} = ID summoner
         private string gamePath = "/observer-mode/rest/consumer/getSpectatorGameInfo/{1}/{2}?api_key="; //url pour les infos de la game //{1} = server; {2} = ID summoner
         private string summonerHistory = "/api/lol/{0}/{1}/matchlist/by-summoner/{2}?api_key=";// url pour les infos de base de l'historique (dont l'ID) //{0} = region; {1} = version api; {2} = ID summoner
         private string summonerHistory_details = "/api/lol/{0}/{1}/match/{2}?api_key=";// url pour les infos detaillee de l'historique //{0} = region; {1} = version api; {2} = ID game

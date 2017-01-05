@@ -766,7 +766,7 @@ namespace LoLapp
                 case ("Ahri"):
                     return (new int[] { 2, 0, 4, 3, 1 });
                 case ("Graves"):
-                    return (new int[] { 3, 1, 2, 0, 4 });
+                    return (new int[] { 1, 3, 2, 0, 4 });
                 case ("Fizz"):
                     return (new int[] { 2, 0, 1, 4, 3 });
                 case ("Volibear"):
@@ -2104,6 +2104,8 @@ namespace LoLapp
                     return ("(the Machi E-Sports Worlds 2016 icon)");
                 case (1301):
                     return ("(the Party Hardy icon)");
+                case (1391):
+                    return ("(the Devil Teemo icon)");
                 case (2072):
                     return ("(the Crabby Crab icon)");
                 case (2073):
