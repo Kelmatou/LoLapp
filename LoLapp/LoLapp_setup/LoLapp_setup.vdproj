@@ -136,19 +136,7 @@
         "Entry"
         {
         "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_A73EFBE26E5F58F74B9326E29784FF9A"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_1E9F003FD259FC60FB3D7A535533F578"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_4995B9FDA77760101D4608AB6500C490"
+        "OwnerKey" = "8:_CB4691EC0F18CA7104C022ECD81659CB"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
@@ -160,7 +148,19 @@
         "Entry"
         {
         "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_CB4691EC0F18CA7104C022ECD81659CB"
+        "OwnerKey" = "8:_4995B9FDA77760101D4608AB6500C490"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_UNDEFINED"
+        "OwnerKey" = "8:_1E9F003FD259FC60FB3D7A535533F578"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_UNDEFINED"
+        "OwnerKey" = "8:_A73EFBE26E5F58F74B9326E29784FF9A"
         "MsmSig" = "8:_UNDEFINED"
         }
     }
@@ -750,15 +750,15 @@
         {
         "Name" = "8:Microsoft Visual Studio"
         "ProductName" = "8:LoLapp"
-        "ProductCode" = "8:{B309398F-1274-4FD4-9910-8D79D5745EED}"
-        "PackageCode" = "8:{ABD60DE9-5B53-4FD3-B71B-97C00D16C7DA}"
+        "ProductCode" = "8:{E6F01291-38C6-4BC3-B5E9-63F75099C3AD}"
+        "PackageCode" = "8:{B77CD431-42DD-42CA-A981-B00A71F45881}"
         "UpgradeCode" = "8:{AF23E85D-E92B-4D8A-9F50-60E508DFF674}"
         "AspNetVersion" = "8:4.0.30319.0"
         "RestartWWWService" = "11:FALSE"
         "RemovePreviousVersions" = "11:TRUE"
         "DetectNewerInstalledVersion" = "11:TRUE"
         "InstallAllUsers" = "11:FALSE"
-        "ProductVersion" = "8:3.1.6"
+        "ProductVersion" = "8:3.1.7"
         "Manufacturer" = "8:Kelmatou Apps"
         "ARPHELPTELEPHONE" = "8:"
         "ARPHELPLINK" = "8:"

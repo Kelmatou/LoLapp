@@ -16,7 +16,7 @@ namespace LoLapp
 {
     public class Program
     {
-        const string version = "VERSION: 1701052302 [PATCH 6.24]";
+        const string version = "VERSION: 1701081915 [PATCH 6.24]";
         const string patch_compatibility = "6.24";
 
         static void Main(string[] args)

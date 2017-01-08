@@ -579,6 +579,18 @@ namespace LoLapp
             else if (key_pressed.Key == ConsoleKey.L && key_pressed.Modifiers == ConsoleModifiers.Control)
             {
                 Program.launch_League_of_Legends(appdata_dir, false);
+                Console.ForegroundColor = ConsoleColor.DarkCyan;
+            }
+            else if (key_pressed.Key == ConsoleKey.N && key_pressed.Modifiers == ConsoleModifiers.Control)
+            {
+                ProcessStartInfo pStart = new ProcessStartInfo();
+                pStart.FileName = Assembly.GetExecutingAssembly().Location;
+                pStart.RedirectStandardOutput = false;
+                pStart.RedirectStandardError = false;
+                pStart.RedirectStandardInput = false;
+                pStart.UseShellExecute = true;
+                pStart.CreateNoWindow = true;
+                Process p = Process.Start(pStart);
             }
             else if ((key_pressed.KeyChar >= 32 && key_pressed.KeyChar <= 126) || (key_pressed.KeyChar >= 128 && key_pressed.KeyChar <= 255))
             {
@@ -977,6 +989,8 @@ namespace LoLapp
                     return ("COOP vs AI 5v5");
                 case ("BOT_3x3"):
                     return ("COOP vs AI 3v3");
+                case ("RANKED_FLEX_SR"):
+                    return ("Ranked Flex 5v5");
                 case ("NONE"):
                     return ("Custom");
                 default:

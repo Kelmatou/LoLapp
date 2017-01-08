@@ -177,7 +177,7 @@ namespace LoLapp
             Console.Write("Date");
             Data_library.print_n_space(nbr_space_date_duration - 3);
             Console.WriteLine("Duration");
-            for(int i = 0; i < game_champion.Count; i++)
+            for(int i = 0; i < game_won.Count; i++)
             {
                 if(game_won[i])
                     Console.ForegroundColor = ConsoleColor.DarkGreen;
