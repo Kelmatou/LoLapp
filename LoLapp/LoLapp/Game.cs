@@ -728,7 +728,7 @@ namespace LoLapp
                         sumSelected = 9;
                     break;
                 case (ConsoleKey.P):
-                    openProfile(players[sumSelected], region, appdata_dir);
+                    Data_library.openProfile(players[sumSelected], region, appdata_dir);
                     break;
             }
             if (sumSelected != preSumSelected)
@@ -990,30 +990,6 @@ namespace LoLapp
 
             }
             return (team * 5 + i);
-        }
-
-        private void openProfile(string summonerName, string region, string appdata_dir)
-        {
-            try
-            {
-                StreamWriter scriptCreator = new StreamWriter(appdata_dir + "script");
-                scriptCreator.WriteLine(summonerName);
-                scriptCreator.WriteLine(region);
-                scriptCreator.Close();
-
-                ProcessStartInfo pStart = new ProcessStartInfo();
-                pStart.FileName = Assembly.GetExecutingAssembly().Location;
-                pStart.Arguments = "SummonerOnly";
-                pStart.RedirectStandardOutput = false;
-                pStart.RedirectStandardError = false;
-                pStart.RedirectStandardInput = false;
-                pStart.UseShellExecute = true;
-                pStart.CreateNoWindow = true;
-                Process p = Process.Start(pStart);
-            }
-            catch(Exception)
-            {
-            }
         }
     }
 }

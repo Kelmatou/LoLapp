@@ -5,6 +5,7 @@ using System.IO;
 using System.Text;
 using System.Diagnostics;
 using System.Security.Cryptography;
+using System.Reflection;
 using System.Threading.Tasks;
 
 namespace LoLapp
@@ -22,7 +23,7 @@ namespace LoLapp
 
         public static List<string> get_champion_list()
         {
-            return (new List<string>() { "Aatrox", "Ahri", "Akali", "Alistar", "Anivia", "Ashe", "Aurelion Sol", "Azir", "Bard", "Blitzcrank", "Brand", "Braum", "Caitlyn", "Camille", "Cassiopeia", "Cho'Gath", "Corki", "Darius", "Diana", "Dr. Mundo", "Draven", "Ekko", "Elise", "Evelynn", "Ezreal", "Fiddlesticks", "Fiora", "Fizz", "Galio", "Gangplank", "Garen", "Gnar", "Gragas", "Graves", "Hecarim", "Heimerdinger", "Illaoi", "Irelia", "Ivern", "Janna", "Jarvan IV", "Jax", "Jayce", "Jhin", "Jinx", "Kalista", "Karma", "Karthus", "Kassadin", "Katarina", "Kayle", "Kennen", "Kha'Zix", "Kindred", "Kled", "Kog'Maw", "Leblanc", "Lee Sin", "Leona", "Lissandra", "Lucian", "Lulu", "Lux", "Malphite", "Malzahar", "Maokai", "Master Yi", "Miss Fortune", "Mordekaiser", "Morgana", "Nami", "Nasus", "Nautilus", "Nidalee", "Nocturne", "Nunu", "Olaf", "Orianna", "Pantheon", "Poppy", "Quinn", "Rammus", "Rek'Sai", "Renekton", "Rengar", "Riven", "Rumble", "Ryze", "Sejuani", "Shaco", "Shen", "Shyvana", "Singed", "Sion", "Sivir", "Skarner", "Sona", "Soraka", "Swain", "Syndra", "Tahm Kench", "Taliyah", "Talon", "Taric", "Teemo", "Thresh", "Tristana", "Trundle", "Tryndamere", "Twisted Fate", "Twitch", "Udyr", "Urgot", "Varus", "Vayne", "Veigar", "Vel'Koz", "Vi", "Viktor", "Vladimir", "Volibear", "Warwick", "Wukong", "Xerath", "Xin Zhao", "Yasuo", "Yorick", "Zac", "Zed", "Ziggs", "Zilean", "Zyra" });
+            return (new List<string>() { "Aatrox", "Ahri", "Akali", "Alistar", "Anivia", "Ashe", "Aurelion Sol", "Azir", "Bard", "Blitzcrank", "Brand", "Braum", "Caitlyn", "Camille", "Cassiopeia", "Cho'Gath", "Corki", "Darius", "Diana", "Dr. Mundo", "Draven", "Ekko", "Elise", "Evelynn", "Ezreal", "Fiddlesticks", "Fiora", "Fizz", "Galio", "Gangplank", "Garen", "Gnar", "Gragas", "Graves", "Hecarim", "Heimerdinger", "Illaoi", "Irelia", "Ivern", "Janna", "Jarvan IV", "Jax", "Jayce", "Jhin", "Jinx", "Kalista", "Karma", "Karthus", "Kassadin", "Katarina", "Kayle", "Kennen", "Kha'Zix", "Kindred", "Kled", "Kog'Maw", "Leblanc", "Lee Sin", "Leona", "Lissandra", "Lucian", "Lulu", "Lux", "Malphite", "Malzahar", "Maokai", "Master Yi", "Miss Fortune", "Mordekaiser", "Morgana", "Nami", "Nasus", "Nautilus", "Nidalee", "Nocturne", "Nunu", "Olaf", "Orianna", "Pantheon", "Poppy", "Quinn", "Rakan", "Rammus", "Rek'Sai", "Renekton", "Rengar", "Riven", "Rumble", "Ryze", "Sejuani", "Shaco", "Shen", "Shyvana", "Singed", "Sion", "Sivir", "Skarner", "Sona", "Soraka", "Swain", "Syndra", "Tahm Kench", "Taliyah", "Talon", "Taric", "Teemo", "Thresh", "Tristana", "Trundle", "Tryndamere", "Twisted Fate", "Twitch", "Udyr", "Urgot", "Varus", "Vayne", "Veigar", "Vel'Koz", "Vi", "Viktor", "Vladimir", "Volibear", "Warwick", "Wukong", "Xayah", "Xerath", "Xin Zhao", "Yasuo", "Yorick", "Zac", "Zed", "Ziggs", "Zilean", "Zyra" });
         }
 
         public static string get_champion_from_id(double id_champion)
@@ -297,6 +298,10 @@ namespace LoLapp
                     return ("Kalista");
                 case (432):
                     return ("Bard");
+                case (497):
+                    return ("Rakan");
+                case (498):
+                    return ("Xayah");
                 default:
                     return ("Unknown"); //UNKNOWN = next champion (anticipated update)
             }
@@ -574,6 +579,10 @@ namespace LoLapp
                     return (429);
                 case ("Bard"):
                     return (432);
+                case ("Rakan"):
+                    return (497);
+                case ("Xayah"):
+                    return (498);
                 default:
                     return (0);
             }
@@ -859,6 +868,10 @@ namespace LoLapp
                     return (new int[] { 3, 2, 0, 4, 1 });
                 case ("Bard"):
                     return (new int[] { 4, 2, 0, 3, 1 });
+                case ("Rakan"):
+                    return (new int[] { 4, 0, 1, 2, 3 });
+                case ("Xayah"):
+                    return (new int[] { 3, 0, 2, 1, 4 });
                 default:
                     return (new int[] { 5, 5, 5, 5, 5 }); //UNKNOWN = next champion (anticipated update)
             }
@@ -2784,6 +2797,30 @@ namespace LoLapp
             {
             }
             return ("NO");
+        }
+
+        public static void openProfile(string summonerName, string region, string appdata_dir)
+        {
+            try
+            {
+                StreamWriter scriptCreator = new StreamWriter(appdata_dir + "script");
+                scriptCreator.WriteLine(summonerName);
+                scriptCreator.WriteLine(region);
+                scriptCreator.Close();
+
+                ProcessStartInfo pStart = new ProcessStartInfo();
+                pStart.FileName = Assembly.GetExecutingAssembly().Location;
+                pStart.Arguments = "SummonerOnly";
+                pStart.RedirectStandardOutput = false;
+                pStart.RedirectStandardError = false;
+                pStart.RedirectStandardInput = false;
+                pStart.UseShellExecute = true;
+                pStart.CreateNoWindow = true;
+                Process p = Process.Start(pStart);
+            }
+            catch (Exception)
+            {
+            }
         }
     }
 }

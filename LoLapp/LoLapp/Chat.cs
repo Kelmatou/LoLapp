@@ -267,7 +267,7 @@ namespace LoLapp
                         else
                         {
                             Console.ForegroundColor = ConsoleColor.DarkCyan;
-                            outMessage = writeText(ref xmpp, userName, allUsers, server, appdata_dir, ref requester);
+                            outMessage = writeText(ref xmpp, userName, allUsers, server, appdata_dir, ref requester, JID_Receiver, receiverName);
                             Console.WriteLine();
                         }
 
@@ -432,7 +432,7 @@ namespace LoLapp
             xmpp.Send(p);
         }
 
-        private static string writeText(ref XmppClientConnection xmpp, string userName, List<string> allusers, string region, string appdata_dir, ref LolRequester requester)
+        private static string writeText(ref XmppClientConnection xmpp, string userName, List<string> allusers, string region, string appdata_dir, ref LolRequester requester, string JID_Receiver, string receiver_name)
         {
             string text = "";
             int lastMinute = DateTime.Now.Minute;
@@ -499,14 +499,14 @@ namespace LoLapp
                     Thread.Sleep(10);
                 } while (!Console.KeyAvailable);
                 key_pressed = Console.ReadKey(true);
-                keyboardEntry(ref text, key_pressed, userName, appdata_dir, ref wordLength, ref lastLinePosition);
+                keyboardEntry(ref text, key_pressed, userName, region, appdata_dir, ref wordLength, ref lastLinePosition, JID_Receiver, receiver_name);
             } while ((key_pressed.Key != ConsoleKey.Enter || text == "") && key_pressed.Key != ConsoleKey.Escape && (key_pressed.Key != ConsoleKey.F4 || key_pressed.Modifiers != ConsoleModifiers.Alt) && key_pressed.Key != ConsoleKey.F1 && key_pressed.Key != ConsoleKey.F2);
 
             Console.CursorVisible = false;
             return (text);
         }
 
-        private static void keyboardEntry(ref string text, ConsoleKeyInfo key_pressed, string userName, string appdata_dir, ref int wordLength, ref List<int> lastLinePosition)
+        private static void keyboardEntry(ref string text, ConsoleKeyInfo key_pressed, string userName, string region, string appdata_dir, ref int wordLength, ref List<int> lastLinePosition, string JID_Receiver, string receiver_name)
         {
             if (key_pressed.Key == ConsoleKey.Backspace && text.Length > 0)
             {
@@ -591,6 +591,25 @@ namespace LoLapp
                 pStart.UseShellExecute = true;
                 pStart.CreateNoWindow = true;
                 Process p = Process.Start(pStart);
+            }
+            else if (key_pressed.Key == ConsoleKey.P && key_pressed.Modifiers == ConsoleModifiers.Control)
+            {
+                if (JID_Receiver == "")
+                {
+                    Console.SetCursorPosition(0, Console.CursorTop);
+                    Console.ForegroundColor = ConsoleColor.DarkGray;
+                    Console.WriteLine("> LoLapp: No receiver specified");
+                    Console.ForegroundColor = ConsoleColor.DarkCyan;
+                    Console.Write("> " + (printTime ? "[" + getTime() + "] " : "") + userName + ": " + text);
+                }
+                else
+                {
+                    Data_library.openProfile(receiver_name, region, appdata_dir);
+                }
+            }
+            else if (key_pressed.Key == ConsoleKey.K && key_pressed.Modifiers == ConsoleModifiers.Control)
+            {
+                clearChat();
             }
             else if ((key_pressed.KeyChar >= 32 && key_pressed.KeyChar <= 126) || (key_pressed.KeyChar >= 128 && key_pressed.KeyChar <= 255))
             {
